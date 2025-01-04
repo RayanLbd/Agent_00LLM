@@ -11,7 +11,10 @@ import matplotlib.image as mpimg
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import ToolNode, tools_condition
-from meteo_class import WeatherForecastTool
+from first_tests.meteo_tool import WeatherForecastTool
+from whatsapp_tool import WhatsAppTool
+from flights_tool import FlightSearchTool
+from hotels_tool import HotelSearchTool
 
 # from langchain_community import tools
 from langchain_core.messages import ToolMessage
@@ -45,18 +48,29 @@ graph_builder = StateGraph(State)
 # Tools section
 tavily_search_tool = TavilySearchResults(max_results=2)
 weather_tool = WeatherForecastTool()
-
-
-tools = [tavily_search_tool, weather_tool]
+whatsapp_tool = WhatsAppTool()
+flights_tool = FlightSearchTool()
+hotels_tool = HotelSearchTool()
+tools = [tavily_search_tool, weather_tool, whatsapp_tool, flights_tool, hotels_tool]
 memory = MemorySaver()
 
 # Node chatbot qui utilise l'API OpenAI
-llm = ChatOpenAI(model_name="gpt-4")
+llm = ChatOpenAI(model_name="gpt-4o-mini-2024-07-18")
 llm_with_tools = llm.bind_tools(tools)
+
+# Configuration du chatbot
+system_prompt = """
+You are a travel planner assistant. If the year is not specified in the user's requests, use the current year: 2025.
+
+For flight research: 
+- When the user mentions a city, you have to search for all airports nearby. For example for 'Paris', the departure airports as 'CDG,ORY,BVA' (all major Paris airports).
+- If the user provides only one date, treat the request as a one-way trip (type=2).
+- If the user provides two dates, treat the request as a round-trip (type=1).
+"""
 
 
 def chatbot(state: State):
-    response = llm_with_tools.invoke(state["messages"])
+    response = llm_with_tools.invoke([("system", system_prompt)] + state["messages"])
     return {"messages": [response]}
 
 
@@ -82,15 +96,12 @@ try:
     plt.imshow(img)
 
     plt.axis("off")
-    # plt.show()
+    plt.show()
 except Exception:
     print("You need to install graphviz and mermaid to display the graph")
 
 
 def stream_graph_updates(user_input: str):
-    # for event in graph.stream({"messages": [("user", user_input)]}):
-    #     for value in event.values():
-    #         print("Assistant:", value["messages"][-1].content)
     events = graph.stream(
         {"messages": [("user", user_input)]}, config, stream_mode="values"
     )
@@ -114,9 +125,6 @@ while True:
         print("User: " + user_input)
         stream_graph_updates(user_input)
         break
-
-# user_input = "Where can I go on holidays this week to go to the beach? Please make sure the weather is good."
-
 
 # snapshot = graph.get_state(config)
 # print(snapshot)
