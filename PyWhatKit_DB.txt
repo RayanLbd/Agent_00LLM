@@ -1,0 +1,15 @@
+Date: 3/1/2025
+Time: 3:14
+Phone Number: +33782970411
+Message: Ceci est un test automatique
+--------------------
+Date: 3/1/2025
+Time: 18:4
+Phone Number: +33766803640
+Message: Hello! This is a message from your brother's AI assistant. Just letting you know that everything is running smoothly. Best, OpenAI Assistant
+--------------------
+Date: 3/1/2025
+Time: 18:21
+Phone Number: +33766803640
+Message: Hey, here is the weather forecast for Paris:2025-01-03 Friday: clear sky, day=3.55°C (min=1.22°C, max=4.22°C)2025-01-04 Saturday: moderate rain, day=2.2°C (min=0.48°C, max=3.85°C)2025-01-05 Sunday: moderate rain, day=10.55°C (min=9.06°C, max=11.53°C)2025-01-06 Monday: light rain, day=12.51°C (min=6.38°C, max=12.51°C)2025-01-07 Tuesday: light rain, day=6.85°C (min=5.45°C, max=7.65°C)2025-01-08 Wednesday: moderate rain, day=4.35°C (min=4.35°C, max=11.35°C)2025-01-09 Thursday: rain and snow, day=2.14°C (min=1.47°C, max=7.92°C)2025-01-10 Friday: clear sky, day=3.88°C (min=0.97°C, max=4.54°C)
+--------------------
