@@ -1,0 +1,12 @@
+pywhatkit
+pydantic
+langchain_core
+langchain_openai
+langchain_community
+langchain_experimental
+langgraph
+tavily-search
+matplotlib
+requests
+python-dotenv
+typing-extensions

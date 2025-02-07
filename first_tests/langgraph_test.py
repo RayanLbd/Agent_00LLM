@@ -11,10 +11,12 @@ import matplotlib.image as mpimg
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import ToolNode, tools_condition
-from first_tests.meteo_tool import WeatherForecastTool
+from meteo_tool import WeatherForecastTool
 from whatsapp_tool import WhatsAppTool
 from flights_tool import FlightSearchTool
 from hotels_tool import HotelSearchTool
+from datetime import date
+
 
 # from langchain_community import tools
 from langchain_core.messages import ToolMessage
@@ -59,13 +61,29 @@ llm = ChatOpenAI(model_name="gpt-4o-mini-2024-07-18")
 llm_with_tools = llm.bind_tools(tools)
 
 # Configuration du chatbot
-system_prompt = """
-You are a travel planner assistant. If the year is not specified in the user's requests, use the current year: 2025.
+today = date.today()
+system_prompt = f"""
+You are a travel planner assistant. Today is the {today}, so only make research for after this date. And we're in Paris, France.
+
+For a full trip request, you have to provide the following information:
+- The departure and destination city
+- Dates of departure and return (if round trip)
+- Total price and price per person
+- Avions and hotels options
+- Meteo information
+
+For meteo research: 
+- If the chosen dates are in the next seven days, use the weather tool. Otherwise, use the Tavily tool.
+- Make sure to use the right city name when you look for information. For example, the full name for Tenerife is 'Santa Cruz de Tenerife'.
 
 For flight research: 
 - When the user mentions a city, you have to search for all airports nearby. For example for 'Paris', the departure airports as 'CDG,ORY,BVA' (all major Paris airports).
 - If the user provides only one date, treat the request as a one-way trip (type=2).
 - If the user provides two dates, treat the request as a round-trip (type=1).
+- If no information is given on the expected results, give only the best result with those info: Departure airport, Arrival airport, Departure date and hour, Flight duration, Airline, Price per person
+
+For hotel research:
+- If no information is given on the expected results, give only the best result with those info: Hotel name and number of stars, Price per night, Rating, Address
 """
 
 
