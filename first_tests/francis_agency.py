@@ -284,6 +284,41 @@ try:
 except Exception:
     print("You need to install graphviz and mermaid to display the graph")
 
+# ==================================================================
+# Gestion d'état global + fonction process_user_input
+# ==================================================================
+
+# On garde une seule instance de "State" pour conserver l'historique
+global_state = State(messages=[])
+
+
+def process_user_input(user_input: str) -> str:
+    """
+    Fonction appelée par Streamlit pour prendre l'input utilisateur,
+    exécuter la logique du graphe (super_graph) et renvoyer la dernière réponse.
+    """
+    # Ajoute le message de l'utilisateur dans l'état global
+    global_state["messages"].append(HumanMessage(content=user_input, name="user"))
+
+    # On exécute le graphe jusqu'à ce qu'il n'y ait plus d'étape à traiter
+    last_output = None
+    for output in super_graph.stream(global_state, {"recursion_limit": 100}):
+        last_output = output
+
+    # Récupère le dernier message du dernier agent invoqué
+    if not last_output:
+        return "Je n'ai pas compris."
+
+    # Exemple: on prend le dernier agent qui figure dans last_output
+    final_agent = list(last_output.keys())[-1]
+    # On récupère le contenu textuel de sa dernière réponse
+    final_msg = last_output[final_agent]["messages"][-1].content
+
+    return final_msg
+
+
+# ==================================================================
+
 
 def stream_graph_updates(user_input: str):
     events = super_graph.stream(
