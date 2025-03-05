@@ -5,7 +5,7 @@ from backend import process_user_input
 # Configuration de la page
 st.set_page_config(page_title="Agent organisateur de voyage", page_icon="✈️", layout="wide")
 
-# CSS pour un design moderne et pour forcer le bouton à se placer à droite du champ
+# CSS modernisé pour l'interface
 st.markdown("""
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
@@ -103,7 +103,8 @@ with st.form("chat_form", clear_on_submit=True):
         submitted = st.form_submit_button("→")
     if submitted and user_input:
         st.session_state.messages.append({"role": "user", "text": user_input})
-        response = process_user_input(user_input)
+        with st.spinner("Génération de la réponse..."):
+            response = process_user_input(user_input)
         st.session_state.messages.append({"role": "bot", "text": response})
         st.rerun()
 st.markdown("</div>", unsafe_allow_html=True)
