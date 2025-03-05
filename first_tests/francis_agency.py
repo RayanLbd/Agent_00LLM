@@ -17,7 +17,13 @@ from whatsapp_tool import WhatsAppTool
 from meteo_tool import WeatherForecastTool
 from datetime import date
 from langchain.callbacks import StdOutCallbackHandler
-from prompts import supervisors_prompt, research_team_prompt, the_supervisor_prompt
+from prompts import (
+    supervisors_prompt,
+    research_team_prompt,
+    the_supervisor_prompt,
+    trip_planner_prompt,
+    accomodation_agent_prompt,
+)
 
 today = date.today()
 
@@ -44,7 +50,7 @@ class State(MessagesState):
 
 
 def make_supervisor_node(
-    llm: BaseChatModel, members: List[str], custom_prompt=""
+    llm: BaseChatModel, members, custom_prompt=""
 ) -> Callable[[State], Command[str]]:
     system_prompt = custom_prompt + supervisors_prompt.format(
         today=today, members=members
@@ -55,7 +61,7 @@ def make_supervisor_node(
         Add a comment to explain your next step. The answer if you have one is to display to the user."""
 
         next: str
-        instructions: str
+        instructions: Optional[str]
         comment: Optional[str]
         answer: Optional[str]
 
@@ -84,10 +90,17 @@ def make_supervisor_node(
 
 supervisor_custom_prompt = the_supervisor_prompt.format(today=today)
 teams_supervisor_node = make_supervisor_node(
-    llm, ["research_team"], supervisor_custom_prompt
+    llm,
+    {
+        "research_team": "Can search on the web and give meteo information",
+        "trip_planner": "Can give flight availibilites",
+        "accomodation_agent": "Can give accomodation availabilities like hotels",
+    },
+    supervisor_custom_prompt,
 )
 
 # ----------------------------------------------------------------------
+# Research team: Websearch and meteo
 
 search_agent = create_react_agent(llm, tools=[tavily_tool])
 
@@ -153,10 +166,109 @@ def call_research_team(state: State) -> Command[Literal["supervisor"]]:
     )
 
 
+# ----------------------------------------------------------------
+# Trip agent: Flight search
+
+flight_agent = create_react_agent(llm, tools=[flights_tool])
+
+
+def search_flight_node(state: State) -> Command[Literal["supervisor"]]:
+    result = flight_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=result["messages"][-1].content, name="flight")
+            ]
+        },
+        goto="supervisor",
+    )
+
+
+flight_custom_prompt = trip_planner_prompt
+
+trip_supervisor_node = make_supervisor_node(llm, ["flight"], flight_custom_prompt)
+
+flight_builder = StateGraph(State)
+flight_builder.add_node("supervisor", trip_supervisor_node)
+flight_builder.add_node("flight", search_flight_node)
+flight_builder.add_edge(START, "supervisor")
+flight_graph = flight_builder.compile()
+
+
+def call_trip_team(state: State) -> Command[Literal["supervisor"]]:
+    content_to_send = state.get("instructions", "").strip()
+    if not content_to_send:
+        content_to_send = state["messages"][-1].content
+    local_state = State(
+        messages=[HumanMessage(content=content_to_send, name="trip_planner")]
+    )
+    sub_result = flight_graph.invoke(local_state)
+    last_message = sub_result["messages"][-1]
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=last_message.content, name="trip_planner")
+            ]
+        },
+        goto="supervisor",
+    )
+
+
+# ----------------------------------------------------------------
+# Accomodation agent
+
+hotel_agent = create_react_agent(llm, tools=[hotels_tool])
+
+
+def search_hotel_node(state: State) -> Command[Literal["supervisor"]]:
+    result = hotel_agent.invoke(state)
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=result["messages"][-1].content, name="hotel")
+            ]
+        },
+        goto="supervisor",
+    )
+
+
+acco_custom_prompt = accomodation_agent_prompt
+
+hotel_supervisor_node = make_supervisor_node(llm, ["hotel"], acco_custom_prompt)
+
+hotel_builder = StateGraph(State)
+hotel_builder.add_node("supervisor", hotel_supervisor_node)
+hotel_builder.add_node("hotel", search_hotel_node)
+hotel_builder.add_edge(START, "supervisor")
+hotel_graph = hotel_builder.compile()
+
+
+def call_accomodation_team(state: State) -> Command[Literal["supervisor"]]:
+    content_to_send = state.get("instructions", "").strip()
+    if not content_to_send:
+        content_to_send = state["messages"][-1].content
+    local_state = State(
+        messages=[HumanMessage(content=content_to_send, name="accomodation_agent")]
+    )
+    sub_result = hotel_graph.invoke(local_state)
+    last_message = sub_result["messages"][-1]
+    return Command(
+        update={
+            "messages": [
+                HumanMessage(content=last_message.content, name="accomodation_agent")
+            ]
+        },
+        goto="supervisor",
+    )
+
+
+# ----------------------------------------------------------------
 # Define the graph.
 super_builder = StateGraph(State)
 super_builder.add_node("supervisor", teams_supervisor_node)
 super_builder.add_node("research_team", call_research_team)
+super_builder.add_node("trip_planner", call_trip_team)
+super_builder.add_node("accomodation_agent", call_accomodation_team)
 super_builder.add_edge(START, "supervisor")
 super_graph = super_builder.compile()
 
@@ -187,10 +299,14 @@ state = State(messages=[])
 emoji_dict = {
     "supervisor": "🤖",
     "research_team": "🌤️",
+    "trip_planner": "🛫",
+    "accomodation_agent": "🏨",
 }
 print("\nCharacters:")
 print("🤖: Global Agent")
 print("🌤️: Research team")
+print("🛫: Trip planner")
+print("🏨: Accomodation agent")
 print("\n--- Starting the conversation ---\n")
 while True:
     try:
@@ -206,25 +322,25 @@ while True:
         # Ajouter l'entrée utilisateur dans les messages de l'état
         state["messages"].append(HumanMessage(content=user_input, name="user"))
 
-        print("\n--- Début de l'exécution du graphe ---\n")
+        # print("\n--- Début de l'exécution du graphe ---\n")
 
         # Exécuter le graphe principal
         last_output = None
         for output in super_graph.stream(state, {"recursion_limit": 100}):
             last_output = output
-            print("--- Étape du graphe ---")
+            # print("--- Étape du graphe ---")
             for agent_identifier in output.keys():
                 if len(output[agent_identifier]["messages"]) > 0:
                     if isinstance(output[agent_identifier]["messages"], list):
                         print(
-                            f"{emoji_dict[agent_identifier]} : {output[agent_identifier]['messages'][-1].content}"
+                            f"\n{emoji_dict[agent_identifier]} : {output[agent_identifier]['messages'][-1].content}"
                         )
                         state["messages"].append(
                             output[agent_identifier]["messages"][-1]
                         )
                     else:
                         print(
-                            f"{emoji_dict[agent_identifier]} : {output[agent_identifier]['messages']}"
+                            f"\n{emoji_dict[agent_identifier]} : {output[agent_identifier]['messages']}"
                         )
                         state["messages"].append(
                             HumanMessage(
@@ -237,7 +353,7 @@ while True:
                     and len(output[agent_identifier]["instructions"]) > 0
                 ):
                     print(
-                        f"{emoji_dict[agent_identifier]} -> {emoji_dict[output[agent_identifier]['next']]} : {output[agent_identifier]['instructions']}"
+                        f"\n{emoji_dict[agent_identifier]} -> {emoji_dict[output[agent_identifier]['next']]} : {output[agent_identifier]['instructions']}"
                     )
 
             print("---\n")
