@@ -1,0 +1,277 @@
+{
+  "interface": {
+    "price": 360.0,
+    "dateRange": "April 22-30, 2025",
+    "location": "Bali, Indonesia",
+    "nights": 6,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrival in Denpasar and Transfer to Ubud",
+        "dayDescription": "Settle into Ubud, known as Bali's cultural heart.",
+        "flight": {
+          "from_": "Paris",
+          "to": "Denpasar",
+          "time": "April 22, 2025, 22:00"
+        },
+        "hotel": {
+          "name": "LA RESERVE 1785 CANGGU BEACH",
+          "nights": 6
+        },
+        "activities": [
+          {
+            "title": "Transfer to Ubud",
+            "description": "Enjoy the scenic drive to Ubud.",
+            "rating": "5/5",
+            "vibe": "Cultural and serene.",
+            "image": null,
+            "link": "http://www.lareservebali.com/"
+          }
+        ],
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-23",
+        "dayTitle": "Explore Ubud's Cultural Sites",
+        "dayDescription": "Visit Ubud Monkey Forest, Ubud Palace, and enjoy Campuhan Ridge Walk.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Ubud Monkey Forest",
+            "description": "Home to over 700 macaques.",
+            "rating": "5/5",
+            "vibe": "Nature and wildlife.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Ubud Palace",
+            "description": "Historic palace with traditional dance performances.",
+            "rating": "5/5",
+            "vibe": "Cultural heritage.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Campuhan Ridge Walk",
+            "description": "Scenic 2-kilometer walk with valley views.",
+            "rating": "5/5",
+            "vibe": "Nature and relaxation.",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-24",
+        "dayTitle": "Temples and Waterfalls",
+        "dayDescription": "Visit Goa Gajah and Tegunungan Waterfall.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Goa Gajah (Elephant Cave)",
+            "description": "An archaeological site known for its intricate carvings.",
+            "rating": "5/5",
+            "vibe": "Historical exploration.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Tegunungan Waterfall",
+            "description": "Experience one of the highest waterfalls in the area.",
+            "rating": "5/5",
+            "vibe": "Nature adventure.",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-25",
+        "dayTitle": "Northern Bali Exploration",
+        "dayDescription": "Explore Ulun Danu Batur Temple and Lake Batur.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Ulun Danu Batur Temple",
+            "description": "Sacred temple dedicated to the goddess Batari Ulun Danu.",
+            "rating": "5/5",
+            "vibe": "Cultural and scenic.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Lake Batur",
+            "description": "Enjoy a scenic boat ride on the volcanic lake.",
+            "rating": "5/5",
+            "vibe": "Relaxing and picturesque.",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-26",
+        "dayTitle": "Beach Day in Seminyak",
+        "dayDescription": "Relax at Seminyak Beach and watch the sunset at Tanah Lot Temple.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Seminyak Beach",
+            "description": "Relax on the sands and enjoy water sports.",
+            "rating": "5/5",
+            "vibe": "Beach and fun.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Sunset at Tanah Lot Temple",
+            "description": "Witness a breathtaking sunset at this iconic sea temple.",
+            "rating": "5/5",
+            "vibe": "Romantic and scenic.",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-27",
+        "dayTitle": "Nusa Islands Adventure",
+        "dayDescription": "Take a day trip to Nusa Lembongan for snorkeling and relaxation.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Nusa Lembongan",
+            "description": "Known for clear waters and snorkeling.",
+            "rating": "5/5",
+            "vibe": "Adventure and nature.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Mushroom Bay Beach",
+            "description": "Relax on this picturesque beach.",
+            "rating": "5/5",
+            "vibe": "Leisure and fun.",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-04-28",
+        "dayTitle": "Leisure and Departure",
+        "dayDescription": "Enjoy spa treatments and local market shopping before departure.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Spa and Wellness",
+            "description": "Treat yourself to a traditional Balinese massage.",
+            "rating": "5/5",
+            "vibe": "Relaxation.",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Local Markets",
+            "description": "Shop for souvenirs at Ubud's art market.",
+            "rating": "5/5",
+            "vibe": "Cultural shopping.",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": null
+      }
+    ],
+    "topActivities": [
+      {
+        "title": "Ubud Monkey Forest",
+        "description": "Visit the sanctuary for over 700 macaques.",
+        "rating": "5/5",
+        "vibe": "Nature and wildlife.",
+        "image": null,
+        "link": null
+      },
+      {
+        "title": "Sunset at Tanah Lot Temple",
+        "description": "Witness a breathtaking sunset at this iconic sea temple.",
+        "rating": "5/5",
+        "vibe": "Romantic and scenic.",
+        "image": null,
+        "link": null
+      },
+      {
+        "title": "Nusa Lembongan",
+        "description": "Take a day trip to this island for snorkeling and clear waters.",
+        "rating": "5/5",
+        "vibe": "Adventure and nature.",
+        "image": null,
+        "link": null
+      }
+    ],
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Denpasar",
+        "departureTime": "April 22, 2025, 22:00",
+        "duration": "31 hours and 25 minutes",
+        "airline": "Etihad Airways",
+        "flightClass": "Economy",
+        "fromAirport": "CDG",
+        "toAirport": "DPS",
+        "baggage": "Checked baggage not included in price."
+      },
+      "inbound": null
+    },
+    "hotelData": {
+      "name": "LA RESERVE 1785 CANGGU BEACH",
+      "nights": 6,
+      "rating": 5.0,
+      "reviewsCount": 100,
+      "location": "Bali, Indonesia",
+      "amenities": [
+        "Free Wi-Fi",
+        "Pool",
+        "Spa",
+        "Restaurant",
+        "Bar"
+      ],
+      "room": "Luxury Room",
+      "website": "http://www.lareservebali.com/",
+      "mapLink": "http://www.lareservebali.com/"
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage en Indonésie de une semaine, à partir du 22 avril 2025. Budget illimité!!"
+    },
+    {
+      "role": "assistant",
+      "content": "Voici un itinéraire de voyage d'une semaine en Indonésie, avec un vol au départ de Paris et un séjour à Bali:\n\n### Détails du Vol\n- **Aéroport de départ :** Aéroport de Paris-Charles de Gaulle (CDG)\n- **Aéroport d'arrivée :** Aéroport international Ngurah Rai (DPS)\n- **Date et heure de départ :** 22 avril 2025, à 22h00\n- **Durée totale du vol :** 31 heures et 25 minutes (incluant une escale)\n- **Compagnie aérienne :** Etihad Airways\n- **Prix :** 360 €\n\n### Hébergement\n- **Hôtel :** LA RESERVE 1785 CANGGU BEACH\n- **Étoiles :** 5\n- **Prix par nuit :** 388 $US\n- **Évaluation :** 5/5\n- [Plus de détails](http://www.lareservebali.com/)\n\n### Activités suggérées\n1. **Ubud Monkey Forest** : Visitez cette forêt abritant plus de 700 macaques.\n2. **Temple Tanah Lot** : Admirez le coucher de soleil sur cet emblématique temple au bord de la mer.\n3. **Nusa Lembongan** : Partez en excursion pour faire du snorkeling dans des eaux cristallines.\n\n### Itinéraire détaillé\n- **Jour 1** : Arrivée à Denpasar et transfert à Ubud\n- **Jour 2** : Exploration des sites culturels d'Ubud\n- **Jour 3** : Temples et cascades\n- **Jour 4** : Exploration du nord de Bali\n- **Jour 5** : Journée plage à Seminyak\n- **Jour 6** : Aventure sur les îles Nusa\n- **Jour 7** : Loisirs et départ\n\nSi vous avez besoin de plus d'informations ou de modifications, n'hésitez pas à demander!"
+    }
+  ]
+}

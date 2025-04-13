@@ -1,0 +1,328 @@
+{
+  "interface": {
+    "price": 3950.0,
+    "dateRange": "April 22 – 29, 2025",
+    "location": "Bali",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrival in Bali & Relaxation",
+        "dayDescription": "Welcome to Bali! After arriving at Ngurah Rai International Airport, check into your hotel and take some time to relax. In the afternoon, stroll along Kuta Beach and enjoy the sunset, a perfect introduction to Bali's beauty. Unwind after your travels and get ready for an exciting week ahead.",
+        "flight": {
+          "from_": "Your home country",
+          "to": "Bali",
+          "time": "Arrival time depends on your flight."
+        },
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Kuta Beach",
+            "description": "Relax on one of Bali's most famous beaches. Enjoy sunbathing, swimming, and perhaps a surf lesson at the well-known surf breaks.",
+            "rating": "3.6",
+            "vibe": "Relaxing",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/03/ea/ac/8a/kuta.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g297697-d1772185-Reviews-Kuta_Beach_Bali-Kuta_Kuta_District_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Bambu Bali",
+            "description": "Immerse yourself in authentic Indonesian cuisine in a stunning setting. Perfect for your first dinner in Bali!",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/31/99/6d/20190909-194950-largejpg.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g13356179-d5992605-Reviews-Bambu_Bali-Kerobokan_Kelod_North_Kuta_Bali.html?m=66827"
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-23",
+        "dayTitle": "Adventure at Waterbom",
+        "dayDescription": "Today is filled with fun and excitement! Spend the day at Waterbom Bali, Asia's number 1 waterpark, where you can enjoy thrilling water slides and lush surroundings. After a whole day of fun, settle down for a relaxing dinner.",
+        "flight": null,
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 6
+        },
+        "activities": [
+          {
+            "title": "Waterbom Bali",
+            "description": "Enjoy exhilarating water slides and entertainment for all ages in a beautiful tropical park.",
+            "rating": "4.6",
+            "vibe": "Thrilling",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2d/e3/17/70/the-oasis-gardens-area.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g297697-d386919-Reviews-Waterbom_Bali-Kuta_Kuta_District_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Woobar Bali",
+            "description": "Enjoy a lively atmosphere with great food and drinks at this popular beachside venue.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/2a/54/9a/woobar-at-w-bali.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g469404-d2045902-Reviews-Woobar_Bali-Seminyak_Kuta_District_Bali.html?m=66827"
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-24",
+        "dayTitle": "Explore Ubud's Culture",
+        "dayDescription": "Leave the beach for a day and head to Ubud to explore Bali's cultural heart. Visit the Ubud Monkey Forest, art markets, and the beautiful rice terraces.",
+        "flight": null,
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 5
+        },
+        "activities": [
+          {
+            "title": "Ubud Monkey Forest",
+            "description": "Explore the sacred Monkey Forest, where you can interact with mischievous monkeys and experience Balinese culture.",
+            "rating": "N/A",
+            "vibe": "Cultural",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/d7/e3/78/monkey-forest.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g3136666-d2405325-Reviews-Monkey_Forest_Ubud-Ubud_Gianyar_Regency_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Sensorium Bali",
+            "description": "Indulge in delicious Australian-influenced food with an Asian twist, perfect for a midday break.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/28/c6/6e/caption.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g311298-d15836252-Reviews-Sensorium_Bali-Canggu_North_Kuta_Bali.html?m=66827"
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-25",
+        "dayTitle": "Bali Swing Adventure",
+        "dayDescription": "Take a thrilling swing over the jungle! Experience breathtaking views and capture memorable pictures at the Bali Swing. Spend the rest of your day exploring beautiful waterfalls nearby.",
+        "flight": null,
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 4
+        },
+        "activities": [
+          {
+            "title": "Bali Swing",
+            "description": "Experience the thrill of swinging over stunning landscapes with breathtaking views.",
+            "rating": "4.6",
+            "vibe": "Adventurous",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/b5/db/e1/real-bali-swing-new-logo.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g297701-d12578972-Reviews-Bali_Swing-Ubud_Gianyar_Regency_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "El Kabron Bali",
+            "description": "Dine at an oceanfront restaurant known for stunning sunset views and Mediterranean flair.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2e/45/17/c6/el-kabron-bali-is-an.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g1380108-d2172396-Reviews-El_Kabron_Bali-Pecatu_Bukit_Peninsula_Bali.html?m=66827"
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-26",
+        "dayTitle": "Safari Adventure Day",
+        "dayDescription": "Today, visit Bali Safari & Marine Park for an exciting day of observation and interaction with exotic wildlife. Enjoy animal shows and learn about conservation efforts.",
+        "flight": null,
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 3
+        },
+        "activities": [
+          {
+            "title": "Bali Safari & Marine Park",
+            "description": "Discover over 100 animal species in a family-friendly setting with interactive shows and exhibits.",
+            "rating": "4.1",
+            "vibe": "Fun",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/b4/a9/59/th-best-safari-park-in.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g297695-d1024228-Reviews-Bali_Safari_Marine_Park-Gianyar_Gianyar_Regency_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Ling-Ling's Bali",
+            "description": "Enjoy Asian fusion tapas in the heart of Seminyak with an inviting atmosphere.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2e/78/1b/5c/ling-s-front-area.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g469404-d10415334-Reviews-Ling_Ling_s_Bali-Seminyak_Kuta_District_Bali.html?m=66827"
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-27",
+        "dayTitle": "Shopping & Relaxation Day",
+        "dayDescription": "Spend the day shopping at Bali Collection in Nusa Dua, where you can find a variety of shops and dining options. Relax and enjoy your last full day in Bali.",
+        "flight": null,
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 2
+        },
+        "activities": [
+          {
+            "title": "Bali Collection",
+            "description": "The largest shopping mall in Nusa Dua, offering a plethora of shops and dining options, perfect for souvenirs.",
+            "rating": "3.6",
+            "vibe": "Leisurely",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/17/bb/3f/f8/img-20190530-141100-largejpg.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g297698-d1943454-Reviews-Bali_Collection-Nusa_Dua_Benoa_South_Kuta_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Casa Blanca Bali",
+            "description": "Savor delicious Italian cuisine in an elegant atmosphere, perfect for a farewell dinner in Bali.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/99/81/d3/our-logo.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g469404-d23741423-Reviews-Casa_Blanca_Bali-Seminyak_Kuta_District_Bali.html?m=66827"
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-04-28",
+        "dayTitle": "Departure Day",
+        "dayDescription": "Enjoy a leisurely morning at the hotel. Perhaps take a final stroll on the beach or do some last-minute shopping before your flight. Check out and head to the airport with wonderful memories of your time in Bali!",
+        "flight": {
+          "from_": "Bali",
+          "to": "Your home country",
+          "time": "Departure time depends on your flight."
+        },
+        "hotel": {
+          "name": "Bali Beach Resort",
+          "nights": 0
+        },
+        "activities": [
+          {
+            "title": "Kuta Beach",
+            "description": "Take a final stroll along the sandy shores of Kuta Beach before your departure. Enjoy the beautiful scenery and vibrant atmosphere one last time.",
+            "rating": "3.6",
+            "vibe": "Relaxing",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/03/ea/ac/8a/kuta.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g297697-d1772185-Reviews-Kuta_Beach_Bali-Kuta_Kuta_District_Bali.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "BKeto Bali",
+            "description": "Savor a healthy, keto-friendly breakfast before your departure, ensuring you leave Bali feeling great.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/28/db/66/86/experience-exceptional.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g469404-d7244507-Reviews-BKeto_Bali-Seminyak_Kuta_District_Bali.html?m=66827"
+          }
+        ]
+      }
+    ],
+    "topActivities": [
+      {
+        "title": "Kuta Beach",
+        "description": "Relax on one of Bali's most famous beaches. Enjoy sunbathing, swimming, and perhaps a surf lesson at the well-known surf breaks.",
+        "rating": "3.6",
+        "vibe": "Relaxing",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-o/03/ea/ac/8a/kuta.jpg",
+        "link": "https://www.tripadvisor.com/Attraction_Review-g297697-d1772185-Reviews-Kuta_Beach_Bali-Kuta_Kuta_District_Bali.html?m=66827"
+      },
+      {
+        "title": "Waterbom Bali",
+        "description": "Enjoy exhilarating water slides and entertainment for all ages in a beautiful tropical park.",
+        "rating": "4.6",
+        "vibe": "Thrilling",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2d/e3/17/70/the-oasis-gardens-area.jpg",
+        "link": "https://www.tripadvisor.com/Attraction_Review-g297697-d386919-Reviews-Waterbom_Bali-Kuta_Kuta_District_Bali.html?m=66827"
+      },
+      {
+        "title": "Ubud Monkey Forest",
+        "description": "Explore the sacred Monkey Forest, where you can interact with mischievous monkeys and experience Balinese culture.",
+        "rating": "N/A",
+        "vibe": "Cultural",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/d7/e3/78/monkey-forest.jpg",
+        "link": "https://www.tripadvisor.com/Attraction_Review-g3136666-d2405325-Reviews-Monkey_Forest_Ubud-Ubud_Gianyar_Regency_Bali.html?m=66827"
+      },
+      {
+        "title": "Bali Swing",
+        "description": "Experience the thrill of swinging over stunning landscapes with breathtaking views.",
+        "rating": "4.6",
+        "vibe": "Adventurous",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/b5/db/e1/real-bali-swing-new-logo.jpg",
+        "link": "https://www.tripadvisor.com/Attraction_Review-g297701-d12578972-Reviews-Bali_Swing-Ubud_Gianyar_Regency_Bali.html?m=66827"
+      },
+      {
+        "title": "Bali Safari & Marine Park",
+        "description": "Discover over 100 animal species in a family-friendly setting with interactive shows and exhibits.",
+        "rating": "4.1",
+        "vibe": "Fun",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/b4/a9/59/th-best-safari-park-in.jpg",
+        "link": "https://www.tripadvisor.com/Attraction_Review-g297695-d1024228-Reviews-Bali_Safari_Marine_Park-Gianyar_Gianyar_Regency_Bali.html?m=66827"
+      },
+      {
+        "title": "Bali Collection",
+        "description": "The largest shopping mall in Nusa Dua, offering a plethora of shops and dining options, perfect for souvenirs.",
+        "rating": "3.6",
+        "vibe": "Leisurely",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-o/17/bb/3f/f8/img-20190530-141100-largejpg.jpg",
+        "link": "https://www.tripadvisor.com/Attraction_Review-g297698-d1943454-Reviews-Bali_Collection-Nusa_Dua_Benoa_South_Kuta_Bali.html?m=66827"
+      }
+    ],
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Bali",
+        "departureTime": "2025-04-22 10:30",
+        "duration": "1300 minutes",
+        "airline": "Etihad",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport de Paris-Charles de Gaulle (CDG)",
+        "toAirport": "I Gusti Ngurah Rai International Airport (DPS)",
+        "baggage": "Checked baggage for a fee"
+      },
+      "inbound": {
+        "fromCity": "Bali",
+        "toCity": "Paris",
+        "departureTime": "2025-04-29",
+        "duration": "N/A",
+        "airline": "Etihad",
+        "flightClass": "Economy",
+        "fromAirport": "I Gusti Ngurah Rai International Airport (DPS)",
+        "toAirport": "Aéroport de Paris-Charles de Gaulle (CDG)",
+        "baggage": "Checked baggage for a fee"
+      }
+    },
+    "hotelData": {
+      "name": "SPOT ON 92399 Hotel Sekar Jagat Near Pantai Baluk Rening",
+      "nights": 7,
+      "rating": 3.6,
+      "reviewsCount": null,
+      "location": "Pantai Baluk Rening",
+      "amenities": null,
+      "room": null,
+      "website": "https://www.oyorooms.com/ID/207404/?utm_source=GMB_ID&utm_medium=Organic&utm_campaign=ID_BLI420&latitude=-8.3595662&longitude=114.5905678&locale=id",
+      "mapLink": null
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage à Bali du 22 au 29 avril 2025"
+    },
+    {
+      "role": "assistant",
+      "content": "Voici votre voyage à Bali :\n\n- **Vol** : Départ de Paris le 22 avril à 10h30 et retour le 29 avril avec Etihad.\n- **Hôtel** : SPOT ON 92399 Hotel Sekar Jagat, situé à Pantai Baluk Rening, 7 nuits.\n- **Coût total** : 3950€.\n\nUn programme passionnant a été préparé avec des activités comme la plage de Kuta, Waterbom, Ubud et plus encore. Vous aurez l'occasion de découvrir la culture balinaise et de vous amuser tout au long de votre séjour. \n\nSi vous avez besoin de plus d'informations, n'hésitez pas !"
+    },
+    {
+      "role": "user",
+      "content": "Quelle est la policy des bagages pour Etihad?"
+    },
+    {
+      "role": "assistant",
+      "content": "La politique des bagages d'Etihad varie en fonction de votre destination, de votre classe de service et de votre type de tarif. Voici un aperçu général :\n\n**Bagage enregistré :**\n- **Vers/Depuis les États-Unis et le Canada :**  \n  - **Économie :** 2 bagages, chacun jusqu'à 50 livres (23 kg).  \n  - **Affaires et Première Classe :** 2 bagages, chacun jusqu'à 70 livres (32 kg).  \n\n- **Autres itinéraires :**  \n  - **Économie :**  \n    - **Tarif Économie Deal :** 1 bagage jusqu'à 23 kg.  \n    - **Tarifs Économie Saver et Classic :** 1 bagage jusqu'à 30 kg.  \n    - **Tarif Économie Flex :** 1 bagage jusqu'à 35 kg.  \n  - **Affaires :** 1 bagage jusqu'à 40 kg.  \n  - **Première Classe :** 1 bagage jusqu'à 50 kg.  \n\n**Bagage à main :**  \n- **Économie :** 1 pièce jusqu'à 7 kg.  \n- **Affaires et Première Classe :** 2 pièces, chacune jusqu'à 12 kg.\n\nLes membres du programme de fidélité bénéficient d'une franchise supplémentaire selon leur statut. Pour les frais d'excédent de bagage, cela dépend également de l'itinéraire et du poids."
+    }
+  ]
+}

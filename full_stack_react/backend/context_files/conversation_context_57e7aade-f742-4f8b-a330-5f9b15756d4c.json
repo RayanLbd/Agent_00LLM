@@ -1,0 +1,39 @@
+{
+  "interface": {
+    "price": 120.0,
+    "dateRange": "April 10, 2025",
+    "location": "Barcelona",
+    "nights": 1,
+    "days": null,
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelona",
+        "departureTime": "2025-04-10T18:35:00",
+        "duration": "1 hour 45 minutes",
+        "airline": "Ryanair",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport Paris-Beauvais",
+        "toAirport": "Aéroport international de Barcelone-El Prat",
+        "baggage": "Standard allowance is one cabin bag."
+      },
+      "inbound": null
+    },
+    "hotelData": null,
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Find me a flight to Barcelona for tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the best flight options from Paris to Barcelona on April 10, 2025:\n\n### Best Flight Option\n- **Departure Airport:** Aéroport Paris-Beauvais (BVA)\n- **Arrival Airport:** Aéroport international de Barcelone-El Prat (BCN)\n- **Departure Date and Time:** April 10, 2025, at 18:35\n- **Flight Duration:** 1 hour and 45 minutes\n- **Airline:** Ryanair\n- **Price per Person:** 120 EUR\n- **Flight Details:** \n  - Flight Number: FR 6375\n  - Aircraft: Boeing 737MAX 8 Passenger\n  - Legroom: 71 cm\n  - Carbon Emissions Estimate: 74 kg  \n\n![Ryanair Logo](https://www.gstatic.com/flights/airline_logos/70px/FR.png)\n\nYou can find more information or book the flight via [Google Flights](https://www.google.com/travel/flights?hl=fr&gl=fr&curr=EUR&tfs=CBwQAhowEgoyMDI1LTA0LTEwagcIARIDQ0RHagcIARIDT1JZagcIARIDQlZBcgcIARIDQkNOQgEBSAFqAHABmAEC&tfu=EgIIAQ). \n\nIf you need further assistance or have any other requests, feel free to ask!"
+    }
+  ]
+}

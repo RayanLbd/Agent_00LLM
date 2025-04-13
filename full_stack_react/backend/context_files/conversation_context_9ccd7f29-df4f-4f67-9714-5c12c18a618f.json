@@ -1,0 +1,282 @@
+{
+  "interface": {
+    "price": null,
+    "dateRange": "April 22 – April 29, 2025",
+    "location": "Barcelone",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrival in Barcelona",
+        "dayDescription": "Explore the Gothic Quarter and enjoy your first meal in the city.",
+        "flight": {
+          "from_": "Paris",
+          "to": "Barcelona",
+          "time": "21:35"
+        },
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Barcelona Cathedral",
+            "description": "A beautiful gothic cathedral with stained glass windows dating back 500 years.",
+            "rating": "4.4",
+            "vibe": "Historical",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/8c/37/29/photo1jpg.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d191048-Reviews-Barcelona_Cathedral-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Tapas at Arcano Restaurant",
+            "description": "Located in a stunning 17th-century building, Arcano offers a unique culinary experience with a creative twist on Catalan cuisine.",
+            "rating": "4.6",
+            "vibe": "Gastronomic",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/21/5c/9f/33/arcano-barcelona.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g187497-d986234-Reviews-Arcano_Restaurant_Barcelona-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Arcano Restaurant",
+            "description": "Enjoy a unique culinary experience with traditional Catalan dishes cooked over charcoal."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-23",
+        "dayTitle": "Exploring the Sights",
+        "dayDescription": "Visit La Sagrada Família and take a stroll down La Rambla.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "La Sagrada Família",
+            "description": "The famous basilica designed by Antoni Gaudí, known for its unique architecture and beautiful stained glass.",
+            "rating": "4.8",
+            "vibe": "Architectural",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/96/ed/52/la-sagrada-familia.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d190169-Reviews-Sagrada_Familia-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Lunch at Casa Lolea",
+            "description": "Try a selection of traditional tapas and delicious sangrias in a fun atmosphere.",
+            "rating": "4.6",
+            "vibe": "Casual",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2e/41/f2/c2/mesa-de-montaditos-y.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g187497-d7656645-Reviews-Casa_Lolea_Barcelona-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Casa Lolea",
+            "description": "Savor homemade sangrias and a variety of delicious tapas."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-24",
+        "dayTitle": "Cultural Immersion",
+        "dayDescription": "Discover the Picasso Museum and relax in Parc de la Ciutadella.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Picasso Museum",
+            "description": "Home to an extensive collection of artwork by the 20th-century Spanish artist Pablo Picasso.",
+            "rating": "4.5",
+            "vibe": "Cultural",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/8d/c0/9e/picasso-museum.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d189334-Reviews-Picasso_Museum-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Dinner at Vicky Barcelona",
+            "description": "A unique fusion of Spanish tapas in a lively atmosphere.",
+            "rating": "4.7",
+            "vibe": "Vibrant",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/4f/c3/ce/your-tapas-place-in-budapest.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g274887-d9459214-Reviews-Vicky_Barcelona-Budapest_Central_Hungary.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Vicky Barcelona",
+            "description": "Experience innovative tapas with a modern flair."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-25",
+        "dayTitle": "Adventure and Relaxation",
+        "dayDescription": "Take a day trip to Montserrat or enjoy the Barcelona Zoo.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Barcelona Zoo",
+            "description": "Home to various species and a beautiful park to explore.",
+            "rating": "3.7",
+            "vibe": "Recreational",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-o/04/43/b0/c4/barcelona-zoo.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d244821-Reviews-Barcelona_Zoo-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Pizzeria Da Nanni",
+            "description": "Enjoy the best authentic Neapolitan pizza in a casual setting."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-26",
+        "dayTitle": "Shopping and Sightseeing",
+        "dayDescription": "Enjoy a day of shopping at Los Encantes and visit the iconic Casa Batlló.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Los Encantes Barcelona",
+            "description": "A vibrant flea market with unique items and a bustling atmosphere.",
+            "rating": "3.9",
+            "vibe": "Local",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/f6/c7/93/photo0jpg.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d190634-Reviews-Los_Encantes_Barcelona-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Dinner at Gatsby Barcelona",
+            "description": "A stylish place to enjoy a variety of dishes and cocktails.",
+            "rating": "3.5",
+            "vibe": "Chic",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/bf/91/a3/photo2jpg.jpg",
+            "link": "https://www.tripadvisor.com/Restaurant_Review-g187497-d8019537-Reviews-Gatsby_Barcelona-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Gatsby Barcelona",
+            "description": "Experience a fine dining atmosphere with a variety of exquisite dishes."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-27",
+        "dayTitle": "Final Explorations",
+        "dayDescription": "Discover any last-minute spots and enjoy a leisurely day before departure.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Barcelona Bus Turistic",
+            "description": "A hop-on-hop-off bus service that takes you to many of the city's famous landmarks.",
+            "rating": "4.0",
+            "vibe": "Convenient",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/d1/d2/18/barcelona-bus-turistic.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d670716-Reviews-Barcelona_Bus_Turistic-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Fismuler Barcelona",
+            "description": "Experience contemporary Spanish cuisine in a modern setting."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-04-28",
+        "dayTitle": "Departure",
+        "dayDescription": "Enjoy your last breakfast in Barcelona and prepare for your flight.",
+        "flight": {
+          "from_": "Barcelona",
+          "to": "Paris",
+          "time": "21:30"
+        },
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [],
+        "foodRecommendations": [
+          {
+            "title": "Breakfast at Taps Barcelona",
+            "description": "Enjoy a casual breakfast before heading to the airport."
+          }
+        ]
+      }
+    ],
+    "topActivities": [],
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelone",
+        "departureTime": "2025-04-22 21:35",
+        "duration": "115 minutes",
+        "airline": "Vueling",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport de Paris-Charles de Gaulle (CDG)",
+        "toAirport": "Aéroport international de Barcelone-El Prat (BCN)",
+        "baggage": "Checked baggage for a fee"
+      },
+      "inbound": {
+        "fromCity": "Barcelone",
+        "toCity": "Paris",
+        "departureTime": "2025-04-29 21:30",
+        "duration": "110 minutes",
+        "airline": "Vueling",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport international de Barcelone-El Prat (BCN)",
+        "toAirport": "Aéroport de Paris-Charles de Gaulle (CDG)",
+        "baggage": "Checked baggage for a fee"
+      }
+    },
+    "hotelData": {
+      "name": "Mellow Hostel Barcelona",
+      "nights": 7,
+      "rating": 3.2,
+      "reviewsCount": null,
+      "location": "Park Güell",
+      "amenities": [
+        "Wi-Fi gratuit"
+      ],
+      "room": "Chambres privées avec salle de bain commune",
+      "website": "http://www.mellowbarcelona.com/",
+      "mapLink": null
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage à Barcelone du 22 avril au 29 avril 2025"
+    },
+    {
+      "role": "assistant",
+      "content": "Voici un plan de voyage à Barcelone du 22 au 29 avril 2025, incluant vos vols et un hôtel :\n\n### Vols :\n- **Aller** :\n  - **De** : Paris (Aéroport de Paris-Charles de Gaulle)\n  - **À** : Barcelone (Aéroport international de Barcelone-El Prat)\n  - **Date** : 22 avril à 21h35\n  - **Durée** : 115 minutes\n  - **Compagnie aérienne** : Vueling\n  - **Bagages** : Vérifiez les frais de bagages.\n\n- **Retour** :\n  - **De** : Barcelone (Aéroport international de Barcelone-El Prat)\n  - **À** : Paris (Aéroport de Paris-Charles de Gaulle)\n  - **Date** : 29 avril à 21h30\n  - **Durée** : 110 minutes\n  - **Compagnie aérienne** : Vueling\n  - **Bagages** : Vérifiez les frais de bagages.\n\n### Hôtel :\n- **Nom** : Mellow Hostel Barcelona\n- **Classification** : 3.2 étoiles\n- **Emplacement** : Près de Park Güell\n- **Nuits** : 7\n- **Chambres** : Chambres privées avec salle de bain commune\n- **Site Web** : [Mellow Hostel](http://www.mellowbarcelona.com/)\n\n### Programme :\n1. **Jour 1** : Arrivée, visite du Quartier Gothique, dîner au restaurant Arcano.\n2. **Jour 2** : Visite de La Sagrada Família et déjeuner au Casa Lolea.\n3. **Jour 3** : Musée Picasso et dîner au Vicky Barcelona.\n4. **Jour 4** : Visite du zoo de Barcelone et déjeuner à la Pizzeria Da Nanni.\n5. **Jour 5** : Shopping au Los Encantes et dîner au Gatsby Barcelona.\n6. **Jour 6** : Derniers lieux à visiter avec un tour en bus touristique.\n7. **Jour 7** : Petit déjeuner et départ.\n\nProfitez de votre voyage ! Si vous avez besoin d'autres détails ou d'ajustements, faites-le moi savoir."
+    }
+  ]
+}

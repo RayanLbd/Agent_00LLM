@@ -1,0 +1,132 @@
+{
+  "interface": {
+    "price": null,
+    "dateRange": "22-29 avril 2025",
+    "location": "Indonésie",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Jour 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrivée à Bali",
+        "dayDescription": "Arrivée à Bali, installation à l'hôtel, soirée détente sur la plage de Nusa Dua.",
+        "flight": null,
+        "hotel": {
+          "name": "The Mulia, Nusa Dua",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 2",
+        "date": "2025-04-23",
+        "dayTitle": "Visite du Temple Uluwatu",
+        "dayDescription": "Matin : Visite du temple Uluwatu. Après-midi : Danse traditionnelle Kecak au coucher du soleil. Soir : Dîner au restaurant Jimbaran Beach.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": [
+          {
+            "title": "Dîner au Restaurant Jimbaran Beach",
+            "description": "Profitez d'un repas de fruits de mer directement sur la plage."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Jour 3",
+        "date": "2025-04-24",
+        "dayTitle": "Excursion à Ubud",
+        "dayDescription": "Excursion à Ubud : Forêt des singes, marchés d'art, et rizières de Tegalalang. Déjeuner à Ubud et détente à l'hôtel l'après-midi.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": [
+          {
+            "title": "Déjeuner à Ubud",
+            "description": "Savourez la cuisine locale dans un restaurant traditionnel."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Jour 4",
+        "date": "2025-04-25",
+        "dayTitle": "Visite des Temples",
+        "dayDescription": "Visite des temples d'Besakih. Déjeuner traditionnel balinais et après-midi : Cours de cuisine balinaise.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": [
+          {
+            "title": "Déjeuner traditionnel balinais",
+            "description": "Mangez comme un local dans un restaurant traditionnel."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Jour 5",
+        "date": "2025-04-26",
+        "dayTitle": "Journée à Nusa Penida",
+        "dayDescription": "Journée d'excursion à Nusa Penida : Plongée, baignade et exploration des plages.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": [
+          {
+            "title": "Dîner au Restaurant de Fruits de Mer",
+            "description": "Repas en bord de mer après une journée d'exploration."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Jour 6",
+        "date": "2025-04-27",
+        "dayTitle": "Détente au Spa",
+        "dayDescription": "Journée de détente au spa de l'hôtel avec options de yoga et massages.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 7",
+        "date": "2025-04-28",
+        "dayTitle": "Shopping à Seminyak et Kuta",
+        "dayDescription": "Shopping et exploration des boutiques, art et souvenirs. Dîner dans un restaurant gastronomique dans la région.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": [
+          {
+            "title": "Dîner au Restaurant Gastronomique",
+            "description": "Découvrez une expérience culinaire raffinée dans la région."
+          }
+        ]
+      }
+    ],
+    "topActivities": null,
+    "flightBlockData": null,
+    "hotelData": {
+      "name": "The Mulia, Nusa Dua",
+      "nights": 7,
+      "rating": null,
+      "reviewsCount": null,
+      "location": "Nusa Dua",
+      "amenities": null,
+      "room": null,
+      "website": null,
+      "mapLink": null
+    },
+    "passengers": null
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage en Indonésie de une semaine, à partir du 22 avril 2025. Budget illimité!!"
+    },
+    {
+      "role": "assistant",
+      "content": "Je n'ai pas pu trouver de vols disponibles pour voyager d'un des aéroports parisiens (CDG, ORY, BVA) à destination de l'aéroport international Ngurah Rai (DPS) en Indonésie pour la période spécifiée (du 22 au 29 avril 2025). Cela peut être dû à diverses raisons, comme des horaires de vol ou des destinations limitées à cette période.\n\nCependant, je peux vous aider à planifier l'ensemble de votre voyage en Indonésie. Voici une proposition :\n\n### Itinéraire de Voyage pour l'Indonésie (22-29 avril 2025)\n\n#### 1. **Vol**\n   - **Aéroport de départ** : Aéroport de Paris-Charles de Gaulle (CDG)\n   - **Aéroport d'arrivée** : I Gusti Ngurah Rai International Airport (DPS)\n   - **Durée approximative** : ~16-20 heures (en fonction des escales)\n\nJe vous recommande de vérifier directement sur des plateformes de réservation de vols comme Air France, KLM, ou des sites comparateurs de vols pour trouver les meilleures options. \n\n#### 2. **Hébergement**\n- **Hôtel suggéré** : **The Mulia, Nusa Dua**  \n  - Description : Luxueux, en bord de mer, avec des spa et des restaurants raffinés.\n  - Tarifs : Environ 500-700 EUR par nuit.\n  \n#### 3. **Programme quotidien d'activités**\n- **Jour 1 (22 avril)** : Arrivée à Bali, installation à l'hôtel, soirée détente sur la plage de Nusa Dua.\n  \n- **Jour 2 (23 avril)** : \n  - Matin : Visite du temple Uluwatu.\n  - Après-midi : Danse traditionnelle Kecak au coucher du soleil.\n  - Soir : Dîner au restaurant Jimbaran Beach.\n\n- **Jour 3 (24 avril)** : \n  - Excursion à Ubud : Forêt des singes, marchés d'art, et rizières de Tegalalang.\n  - Déjeuner : Restaurant local à Ubud.\n  - Après-midi : Détente à votre hôtel.\n\n- **Jour 4 (25 avril)** :\n  - Visite des temples d'Besakih.\n  - Déjeuner : Restaurant traditionnel balinais.\n  - Après-midi : Cours de cuisine balinaise.\n\n- **Jour 5 (26 avril)** :\n  - Journée à Nusa Penida : Plongée, baignade et exploration des plages cachées.\n  - Dîner : Restaurant de fruits de mer en bord de mer.\n\n- **Jour 6 (27 avril)** : \n  - Journée de détente au spa de l'hôtel.\n  - Options : Yoga, massages, soins de beauté.\n\n- **Jour 7 (28 avril)** :\n  - Shopping à Seminyak et Kuta : boutiques, art et souvenirs.\n  - Dîner : Restaurant gastronomique dans la région.\n\n- **Jour 8 (29 avril)** : Retour à l'aéroport pour le vol retour vers Paris.\n\n#### 4. **Recommandations gastronomiques**\n- **Restaurant La Lucciola** (Seminyak) : Cuisine internationale avec une vue sur la plage.\n- **Bambu** (Seminyak) : Cuisine authentique indonésienne dans un cadre raffiné.\n- **Motel Mexicola** (Seminyak) : Pour le divertissement, la musique et des plats inspirés du Mexique.\n\n### Note\nJe vous recommande de réserver les vols et l'hébergement le plus tôt possible, et de confirmer la disponibilité des activités. Si vous souhaitez que je vérifie à nouveau les vols ou d'autres détails, n'hésitez pas à demander !"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "interface": {
+    "price": 25000.0,
+    "dateRange": "April 22 – 29, 2025",
+    "location": "Bali, Indonésie",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrivée à Bali",
+        "dayDescription": "Arrivée à Bali, l'île des Dieux. Après votre installation à l'hôtel, profitez d'une soirée relaxante.",
+        "flight": {
+          "from_": "Paris",
+          "to": "Denpasar",
+          "time": "10:00"
+        },
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Visite de la plage de Seminyak",
+            "description": "Détente sur la plage avec coucher de soleil",
+            "rating": "4.5",
+            "vibe": "Relax",
+            "image": "https://example.com/seminyak.jpg",
+            "link": "https://example.com/seminyak"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Dîner au La Plancha",
+            "description": "Profitez de tapas au bord de la plage avec une belle vue sur le coucher de soleil."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-23",
+        "dayTitle": "Culture et Temples",
+        "dayDescription": "Explorez la richesse culturelle de Bali avec la visite de plusieurs temples.",
+        "flight": null,
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 6
+        },
+        "activities": [
+          {
+            "title": "Temple de Tanah Lot",
+            "description": "Un temple emblématique de Bali surplombant l'océan",
+            "rating": "4.7",
+            "vibe": "Spirituel",
+            "image": "https://example.com/tanahlot.jpg",
+            "link": "https://example.com/tanahlot"
+          },
+          {
+            "title": "Visite du Temple d'Uluwatu",
+            "description": "Profitez de la vue sur la mer et assistez à un spectacle de danse Kecak",
+            "rating": "4.6",
+            "vibe": "Culturel",
+            "image": "https://example.com/uluwatu.jpg",
+            "link": "https://example.com/uluwatu"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Dîner au Jimbaran Seafood",
+            "description": "Dégustez des fruits de mer frais sur la plage."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-24",
+        "dayTitle": "Natura et Aventure",
+        "dayDescription": "Journée dédiée à l'aventure en plein air et à la découverte des paysages magnifiques de Bali.",
+        "flight": null,
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 5
+        },
+        "activities": [
+          {
+            "title": "Randonnée au mont Batur",
+            "description": "Randonnée matinale pour admirer le lever du soleil au sommet.",
+            "rating": "4.9",
+            "vibe": "Aventure",
+            "image": "https://example.com/montbatur.jpg",
+            "link": "https://example.com/montbatur"
+          },
+          {
+            "title": "Baignade dans les sources chaudes",
+            "description": "Détente après la randonnée dans des sources naturelles.",
+            "rating": "4.5",
+            "vibe": "Détente",
+            "image": "https://example.com/sourceschaudes.jpg",
+            "link": "https://example.com/sourceschaudes"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Déjeuner dans un Warung local",
+            "description": "Goûtez des plats locaux authentiques tels que le Nasi Goreng."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-25",
+        "dayTitle": "Détente et Plages",
+        "dayDescription": "Temps pour se détendre sur les magnifiques plages de Bali.",
+        "flight": null,
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 4
+        },
+        "activities": [
+          {
+            "title": "Plage de Nusa Dua",
+            "description": "Détendre sur la plage avec des eaux calmes.",
+            "rating": "4.8",
+            "vibe": "Tropical",
+            "image": "https://example.com/nusadua.jpg",
+            "link": "https://example.com/nusadua"
+          },
+          {
+            "title": "Snorkeling à Padang Bai",
+            "description": "Découverte de la vie marine colorée.",
+            "rating": "4.7",
+            "vibe": "Aventurier",
+            "image": "https://example.com/snorkeling.jpg",
+            "link": "https://example.com/snorkeling"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Dîner au Bumbu Bali",
+            "description": "Cuisine balinaise authentique avec une atmosphère accueillante."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-26",
+        "dayTitle": "Visite Culturelle et Artisanat",
+        "dayDescription": "Explorez les villages d'artisans et la culture locale.",
+        "flight": null,
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 3
+        },
+        "activities": [
+          {
+            "title": "Visite d'Ubud",
+            "description": "Centre de culture balinaise avec des galeristes et des ateliers.",
+            "rating": "4.7",
+            "vibe": "Culturel",
+            "image": "https://example.com/ubud.jpg",
+            "link": "https://example.com/ubud"
+          },
+          {
+            "title": "Mona Lisa d'Ubud - Marché d'artisanat",
+            "description": "Possibilité d'acheter des souvenirs uniques.",
+            "rating": "4.5",
+            "vibe": "Shopping",
+            "image": "https://example.com/marché.jpg",
+            "link": "https://example.com/marché"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Déjeuner au Café Organic",
+            "description": "Aliments sains et délicieux dans un cadre verdoyant."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-27",
+        "dayTitle": "Dernières Explorations",
+        "dayDescription": "Journée consacrée aux dernières visites avant de partir.",
+        "flight": null,
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 1
+        },
+        "activities": [
+          {
+            "title": "Visite du jardin botanique de Bali",
+            "description": "Promenade relaxante dans le jardin botanique et observation de la flore.",
+            "rating": "4.6",
+            "vibe": "Nature",
+            "image": "https://example.com/jardinbotanique.jpg",
+            "link": "https://example.com/jardinbotanique"
+          },
+          {
+            "title": "Dernier bain de soleil à Seminyak",
+            "description": "Profitez de la plage avant votre départ.",
+            "rating": "4.5",
+            "vibe": "Relax",
+            "image": "https://example.com/seminyak.jpg",
+            "link": "https://example.com/seminyak"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Souper au La Sicilia",
+            "description": "Cuisine italienne avec des produits frais."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-04-28",
+        "dayTitle": "Départ de Bali",
+        "dayDescription": "Préparation pour le vol de retour.",
+        "flight": {
+          "from_": "Denpasar",
+          "to": "Paris",
+          "time": "14:00"
+        },
+        "hotel": {
+          "name": "The Apurva Kempinski Bali",
+          "nights": 0
+        },
+        "activities": null,
+        "foodRecommendations": [
+          {
+            "title": "Petit-déjeuner à l'hôtel",
+            "description": "Profitez d'un bon petit-déjeuner avant de partir."
+          }
+        ]
+      }
+    ],
+    "topActivities": [
+      {
+        "title": "Visite de la plage de Seminyak",
+        "description": "Détente sur la plage avec coucher de soleil",
+        "rating": "4.5",
+        "vibe": "Relax",
+        "image": "https://example.com/seminyak.jpg",
+        "link": "https://example.com/seminyak"
+      },
+      {
+        "title": "Temple de Tanah Lot",
+        "description": "Un temple emblématique de Bali surplombant l'océan",
+        "rating": "4.7",
+        "vibe": "Spirituel",
+        "image": "https://example.com/tanahlot.jpg",
+        "link": "https://example.com/tanahlot"
+      },
+      {
+        "title": "Randonnée au mont Batur",
+        "description": "Randonnée matinale pour admirer le lever du soleil au sommet.",
+        "rating": "4.9",
+        "vibe": "Aventure",
+        "image": "https://example.com/montbatur.jpg",
+        "link": "https://example.com/montbatur"
+      },
+      {
+        "title": "Dîner au Jimbaran Seafood",
+        "description": "Dégustez des fruits de mer frais sur la plage.",
+        "rating": "4.8",
+        "vibe": "Gastronomie",
+        "image": "https://example.com/jimbaran.jpg",
+        "link": "https://example.com/jimbaran"
+      }
+    ],
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Denpasar",
+        "departureTime": "2025-04-22 10:30",
+        "duration": "21h 50m",
+        "airline": "Etihad",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport de Paris-Charles de Gaulle",
+        "toAirport": "I Gusti Ngurah Rai International Airport",
+        "baggage": "Checked baggage for a fee"
+      },
+      "inbound": {
+        "fromCity": "Denpasar",
+        "toCity": "Paris",
+        "departureTime": "2025-04-29 14:00",
+        "duration": "18h 35m",
+        "airline": "Etihad",
+        "flightClass": "Economy",
+        "fromAirport": "I Gusti Ngurah Rai International Airport",
+        "toAirport": "Aéroport de Paris-Charles de Gaulle",
+        "baggage": "Checked baggage for a fee"
+      }
+    },
+    "hotelData": {
+      "name": "The Apurva Kempinski Bali",
+      "nights": 7,
+      "rating": 4.8,
+      "reviewsCount": null,
+      "location": "I Gusti Ngurah Rai International Airport, Bali, Indonésie",
+      "amenities": [
+        "Restaurant sur le toit",
+        "Spa",
+        "Piscine extérieure"
+      ],
+      "room": "Logements raffinés",
+      "website": "https://www.kempinski.com/en/the-apurva-kempinski-bali?utm_medium=organic&utm_source=google&utm_campaign=KIDPS1&utm_content=gmb&source=S308962248",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=I+Gusti+Ngurah+Rai+International+Airport"
+    },
+    "passengers": {
+      "adults": 2,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage en Indonésie de une semaine, à partir du 22 avril 2025. Budget illimité!!"
+    },
+    {
+      "role": "assistant",
+      "content": "Votre voyage en Indonésie est organisé avec des détails passionnants ! Voici ce que j'ai préparé pour vous : \n- **Vols :** Aller-retour de Paris à Bali avec Etihad.\n  - **Départ :** 22 avril 2025, 10h30.\n  - **Retour :** 29 avril 2025, 00h10. \n- **Hébergement :** Vous séjournerez au **The Apurva Kempinski Bali**, un hôtel 5 étoiles, avec toutes les commodités nécessaires pour un séjour luxueux d'une semaine.\n- **Activités :** Une gamme d'activités passionnantes allant des visites culturelles, randonnées, détente sur plages et exploration des temples.\n\nSi vous avez des préférences ou d'autres demandes en tête, n'hésitez pas à me le faire savoir !"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "interface": {
+    "price": 120.0,
+    "dateRange": "April 10, 2025",
+    "location": "Barcelona",
+    "nights": null,
+    "days": null,
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelona",
+        "departureTime": "18:35",
+        "duration": "1 hour 45 minutes",
+        "airline": "Ryanair",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport Paris-Beauvais (BVA)",
+        "toAirport": "Aéroport international de Barcelone-El Prat (BCN)",
+        "baggage": "1 small cabin bag (40 x 20 x 25 cm) plus a larger cabin bag (55 x 40 x 20 cm, up to 10 kg) for Priority passengers."
+      },
+      "inbound": null
+    },
+    "hotelData": null,
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Find me a flight to Barcelona for tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the best flight options from Paris to Barcelona on April 10, 2025:\n\n### Option 1\n- **Departure Airport:** Aéroport Paris-Beauvais (BVA)\n- **Arrival Airport:** Aéroport international de Barcelone-El Prat (BCN)\n- **Departure Time:** 18:35\n- **Arrival Time:** 20:20\n- **Flight Duration:** 1 hour 45 minutes\n- **Airline:** Ryanair\n- **Price:** 120 EUR\n\n---\n\n### Option 2\n- **Departure Airport:** Aéroport de Paris-Charles de Gaulle (CDG)\n- **Arrival Airport:** Aéroport international de Barcelone-El Prat (BCN)\n- **Departure Time:** 12:55\n- **Arrival Time:** 14:50\n- **Flight Duration:** 1 hour 55 minutes\n- **Airline:** Vueling\n- **Price:** 120 EUR\n\n---\n\n### Option 3\n- **Departure Airport:** Aéroport de Paris-Orly (ORY)\n- **Arrival Airport:** Aéroport international de Barcelone-El Prat (BCN)\n- **Departure Time:** 18:15\n- **Arrival Time:** 19:55\n- **Flight Duration:** 1 hour 40 minutes\n- **Airline:** Transavia\n- **Price:** 159 EUR\n\n---\n\nIf you would like to know more about any specific option or need further assistance, feel free to ask!"
+    },
+    {
+      "role": "user",
+      "content": "Can you please check the baggage policy for Ryanair?"
+    },
+    {
+      "role": "assistant",
+      "content": "Ryanair's baggage policy for 2025 allows for the following:\n\n**1. Cabin Baggage:**  \n- **Non-Priority Passengers:** One small cabin bag (max 40 x 20 x 25 cm) under the seat.\n- **Priority Passengers:** One small cabin bag plus one larger cabin bag (max 55 x 40 x 20 cm, up to 10 kg).\n\n**2. Checked Baggage:**  \n- **10 kg Bag:** Up to 55 x 40 x 20 cm, starting from €25 if booked online.\n- **20 kg Bag:** Up to 80 x 120 x 120 cm, starting from €25 if booked online.\n\n**3. Excess Weight:**  \n- €11 per kg for bags exceeding the weight limit.  \n\nAdditional fees may apply for items added post-booking or at the airport. \n\nCheck Ryanair's official website for the latest updates."
+    },
+    {
+      "role": "user",
+      "content": "Where is Ryanair from?"
+    },
+    {
+      "role": "user",
+      "content": "Where is Ryanair from?"
+    }
+  ]
+}

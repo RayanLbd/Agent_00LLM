@@ -1,0 +1,329 @@
+{
+  "interface": {
+    "price": 19500.0,
+    "dateRange": "April 25 – May 5, 2025",
+    "location": "Bali, Indonesia",
+    "nights": 10,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-25",
+        "dayTitle": "Arrival and Relaxation",
+        "dayDescription": "Check-in at The Mulia, enjoy a welcome drink and sunset by the beach.",
+        "flight": {
+          "from_": "Paris",
+          "to": "Bali",
+          "time": "April 25, 2025, 23:00"
+        },
+        "hotel": {
+          "name": "The Mulia, Nusa Dua",
+          "nights": 10
+        },
+        "activities": [
+          {
+            "title": "Welcome Drink",
+            "description": "Enjoy a complimentary welcome drink upon arrival.",
+            "rating": null,
+            "vibe": "Relaxing",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Sunset by the Beach",
+            "description": "Watch a beautiful sunset from the private beach.",
+            "rating": null,
+            "vibe": "Romantic",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Dinner at Soleil",
+            "description": "Indulge in gourmet dinner at The Mulia's beachfront restaurant."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-26",
+        "dayTitle": "Ubud Exploration",
+        "dayDescription": "Private guided tour to Ubud, visiting the Monkey Forest, Tegalalang Rice Terrace, and Ubud Art Market.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Ubud Monkey Forest",
+            "description": "Explore the sacred monkey forest, home to hundreds of playful monkeys.",
+            "rating": null,
+            "vibe": "Cultural",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Tegalalang Rice Terrace",
+            "description": "Stunning rice terrace views, perfect for photographs.",
+            "rating": null,
+            "vibe": "Nature",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Lunch at Kismet Restaurant",
+            "description": "Enjoy a delightful meal at a top Ubud restaurant."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-27",
+        "dayTitle": "Spa Day",
+        "dayDescription": "Indulge in a full day of pampering at the onsite spa, followed by a fine dining dinner.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Spa Treatments",
+            "description": "Relax with massages and wellness treatments at the hotel spa.",
+            "rating": null,
+            "vibe": "Relaxing",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Dinner at Boneka Restaurant",
+            "description": "Enjoy fine dining in an exquisite setting at The Mulia."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-28",
+        "dayTitle": "Water Activities",
+        "dayDescription": "Private yacht charter for a day of snorkeling at Nusa Penida with a gourmet lunch onboard.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Private Yacht Charter",
+            "description": "Enjoy a fully-equipped yacht for the day, complete with crew and gourmet meals.",
+            "rating": null,
+            "vibe": "Adventurous",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Snorkeling at Nusa Penida",
+            "description": "Discover the vibrant marine life in clear waters.",
+            "rating": null,
+            "vibe": "Adventure",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Gourmet Lunch Onboard",
+            "description": "Savor exquisite dishes prepared by the onboard chef."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-29",
+        "dayTitle": "Cultural Experience",
+        "dayDescription": "Attend a traditional Balinese cooking class and enjoy the meal you prepared for dinner.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Balinese Cooking Class",
+            "description": "Learn to cook traditional Balinese dishes under the guidance of a local chef.",
+            "rating": null,
+            "vibe": "Cultural",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Dinner with Your Own Cooking",
+            "description": "Enjoy a delicious meal composed of the dishes you prepared during the cooking class."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-30",
+        "dayTitle": "Adventure Day",
+        "dayDescription": "Hike to Mount Batur for a spectacular sunrise and enjoy lunch with a view.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Sunrise Hike to Mount Batur",
+            "description": "Experience an adventure hiking one of Bali's active volcanoes.",
+            "rating": null,
+            "vibe": "Adventure",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Breakfast with a View",
+            "description": "Enjoy breakfast overlooking the stunning landscape post-hike.",
+            "rating": null,
+            "vibe": "Scenic",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Lunch at Local Warung",
+            "description": "Taste traditional local food after your hike."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-05-01",
+        "dayTitle": "Relaxation and Departure",
+        "dayDescription": "Enjoy last-minute spa treatments and beach time, followed by a farewell dinner at the beachfront restaurant.",
+        "flight": null,
+        "hotel": null,
+        "activities": [
+          {
+            "title": "Spa Treatments",
+            "description": "Indulge in relaxing treatments to end your trip perfectly.",
+            "rating": null,
+            "vibe": "Relaxing",
+            "image": null,
+            "link": null
+          },
+          {
+            "title": "Beach Time",
+            "description": "Soak up the sun on the private beach before departure.",
+            "rating": null,
+            "vibe": "Relaxing",
+            "image": null,
+            "link": null
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Farewell Dinner at Soleil",
+            "description": "Enjoy a beautiful final dinner at the beachfront restaurant."
+          }
+        ]
+      }
+    ],
+    "topActivities": [
+      {
+        "title": "Private Yacht Charter",
+        "description": "A luxurious day exploring Bali's stunning waters.",
+        "rating": null,
+        "vibe": "Luxury",
+        "image": null,
+        "link": null
+      },
+      {
+        "title": "Spa Treatments at The Mulia",
+        "description": "Experience the top-tier spa services for relaxation.",
+        "rating": null,
+        "vibe": "Relaxing",
+        "image": null,
+        "link": null
+      },
+      {
+        "title": "Sunrise Hike to Mount Batur",
+        "description": "An adventurous experience with breathtaking views.",
+        "rating": null,
+        "vibe": "Adventure",
+        "image": null,
+        "link": null
+      }
+    ],
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Bali",
+        "departureTime": "April 25, 2025, 23:00",
+        "duration": "Approximately 18 hours",
+        "airline": "Qatar Airways",
+        "flightClass": "First Class",
+        "fromAirport": "CDG",
+        "toAirport": "DPS",
+        "baggage": "First class luggage allowance"
+      },
+      "inbound": {
+        "fromCity": "Bali",
+        "toCity": "Paris",
+        "departureTime": "May 5, 2025, 22:00",
+        "duration": "Approximately 18 hours",
+        "airline": "Qatar Airways",
+        "flightClass": "First Class",
+        "fromAirport": "DPS",
+        "toAirport": "CDG",
+        "baggage": "First class luggage allowance"
+      }
+    },
+    "hotelData": {
+      "name": "The Mulia, Nusa Dua",
+      "nights": 10,
+      "rating": 5.0,
+      "reviewsCount": 120,
+      "location": "Nusa Dua, Bali",
+      "amenities": [
+        "Private beach",
+        "Multiple infinity pools",
+        "Spa",
+        "Fine dining restaurants"
+      ],
+      "room": "Oceanfront Suite",
+      "website": "https://www.themulia.com",
+      "mapLink": "https://goo.gl/maps/XYZ123"
+    },
+    "passengers": {
+      "adults": 2,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello "
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "user",
+      "content": "How are you?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm doing great, thank you! How can I assist you today?"
+    },
+    {
+      "role": "user",
+      "content": "What's the weather tomorrow?"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather forecast for tomorrow, April 10, 2025, in Paris is:\n- **Conditions**: Scattered clouds\n- **Day Temperature**: 15.37°C\n- **Minimum Temperature**: 7.56°C\n- **Maximum Temperature**: 18.69°C\n\nIf you need more information or forecasts for different locations, just let me know!"
+    },
+    {
+      "role": "user",
+      "content": "Organize the perfect trip to Bali with unlimited funds"
+    },
+    {
+      "role": "user",
+      "content": "Organize the perfect trip to Bali with unlimited funds"
+    }
+  ]
+}

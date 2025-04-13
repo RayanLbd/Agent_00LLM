@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "price": 93.0,
+    "dateRange": "April 8, 2025",
+    "location": "Barcelona",
+    "nights": null,
+    "days": null,
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelona",
+        "departureTime": "21:35",
+        "duration": "1 hour 55 minutes",
+        "airline": "Vueling",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport de Paris-Charles de Gaulle",
+        "toAirport": "Aéroport international de Barcelone-El Prat",
+        "baggage": "Check with the airline for details."
+      },
+      "inbound": null
+    },
+    "hotelData": null,
+    "passengers": null
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Find me a flight to Barcelona for tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the best flight option for tomorrow, April 8, 2025:\n\n- **Departure Airport**: Aéroport de Paris-Charles de Gaulle (CDG)\n- **Arrival Airport**: Aéroport international de Barcelone-El Prat (BCN)\n- **Departure Time**: 21:35\n- **Arrival Time**: 23:30\n- **Flight Duration**: 1 hour 55 minutes\n- **Airline**: Vueling\n- **Flight Number**: VY 8241\n- **Price**: €93\n\n![Airline Logo](https://www.gstatic.com/flights/airline_logos/70px/VY.png)\n\nYou can view more details or book [here](https://www.google.com/travel/flights?hl=fr&gl=fr&curr=EUR&tfs=CBwQAhowEgoyMDI1LTA0LTA4agcIARIDQ0RHagcIARIDT1JZagcIARIDQlZBcgcIARIDQkNOQgEBSAFqAHABmAEC&tfu=EgIIAg)."
+    }
+  ]
+}

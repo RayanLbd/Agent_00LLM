@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "price": 120.0,
+    "dateRange": "April 10, 2025",
+    "location": "Barcelona",
+    "nights": null,
+    "days": null,
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelona",
+        "departureTime": "18:35",
+        "duration": "1 hour 45 minutes",
+        "airline": "Ryanair",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport Paris-Beauvais (BVA)",
+        "toAirport": "Aéroport international de Barcelone-El Prat (BCN)",
+        "baggage": "Check airline for details."
+      },
+      "inbound": null
+    },
+    "hotelData": null,
+    "passengers": null
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Find me a flight to Barcelona for tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the best flight from Paris to Barcelona on **April 10, 2025**:\n\n- **Departure Airport:** Aéroport Paris-Beauvais (BVA)\n- **Arrival Airport:** Aéroport international de Barcelone-El Prat (BCN)\n- **Departure Time:** 18:35\n- **Arrival Time:** 20:20\n- **Flight Duration:** 1 hour 45 minutes\n- **Airline:** Ryanair\n- **Price per Person:** 120 EUR\n\nFor more options and details, you can [view this link](https://www.google.com/travel/flights?hl=fr&gl=fr&curr=EUR&tfs=CBwQAhowEgoyMDI1LTA0LTEwagcIARIDQ0RHagcIARIDT1JZagcIARIDQlZBcgcIARIDQkNOQgEBSAFqAHABmAEC&tfu=EgIIAQ)."
+    }
+  ]
+}

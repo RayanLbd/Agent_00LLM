@@ -1,0 +1,60 @@
+{
+  "interface": {
+    "price": 207.0,
+    "dateRange": "April 10, 2025",
+    "location": "Rome",
+    "nights": null,
+    "days": null,
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Rome",
+        "departureTime": "11:15 AM",
+        "duration": "7 hours and 30 minutes",
+        "airline": "Scandinavian Airlines",
+        "flightClass": null,
+        "fromAirport": "Aéroport de Paris-Charles de Gaulle (CDG)",
+        "toAirport": "Aéroport Léonard-de-Vinci de Rome Fiumicino (FCO)",
+        "baggage": null
+      },
+      "inbound": null
+    },
+    "hotelData": null,
+    "passengers": null
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Find me the cheapest flight for Roma for tomorrow"
+    },
+    {
+      "role": "assistant",
+      "content": "The cheapest flight from Paris to Rome for tomorrow, April 10, 2025, is:\n\n- **Departure Airport**: Aéroport de Paris-Charles de Gaulle (CDG)\n- **Arrival Airport**: Aéroport Léonard-de-Vinci de Rome Fiumicino (FCO)\n- **Departure Time**: 11:15 AM\n- **Flight Duration**: 7 hours and 30 minutes (includes a layover)\n- **Airline**: Scandinavian Airlines\n- **Price per Person**: €207\n\nFor more details or to book, you can visit [this link](https://www.google.com/travel/flights?hl=fr&gl=fr&curr=EUR&tfs=CBwQAhoeEgoyMDI1LTA0LTEwagcIARIDQ0RHcgcIARIDRkNPQgEBSAFqAHABmAEC&tfu=EgIIAg)."
+    },
+    {
+      "role": "user",
+      "content": "Thank you sir"
+    },
+    {
+      "role": "user",
+      "content": "Thank you sir"
+    },
+    {
+      "role": "user",
+      "content": "How are you?"
+    },
+    {
+      "role": "user",
+      "content": "How are you?"
+    },
+    {
+      "role": "user",
+      "content": "Why do you not want to answer?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm doing great, thank you for asking! How can I assist you today?"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "interface": {
+    "price": 1500.0,
+    "dateRange": "22-28 avril 2025",
+    "location": "Indonésie",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Jour 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrivée à Bali",
+        "dayDescription": "Vol de Paris à Bali, installation dans un hôtel de luxe.",
+        "flight": {
+          "from_": "Paris",
+          "to": "Bali",
+          "time": "22:40"
+        },
+        "hotel": {
+          "name": "Évaluation à confirmer",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Arrivée et détente",
+            "description": "Profitez d'un massage traditionnel balinais après un long vol.",
+            "rating": "N/A",
+            "vibe": "Relaxant",
+            "image": "",
+            "link": ""
+          }
+        ],
+        "foodRecommendations": []
+      }
+    ],
+    "topActivities": [
+      {
+        "title": "Visite de Borobudur",
+        "description": "Explorez le temple bouddhiste classé au patrimoine mondial de l'UNESCO.",
+        "rating": "N/A",
+        "vibe": "Culturel",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Ascension du Mont Bromo",
+        "description": "Assistez à un lever de soleil spectaculaire sur ce volcan actif.",
+        "rating": "N/A",
+        "vibe": "Aventure",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Détente sur les îles Gili",
+        "description": "Profitez des plages paradisiaques et de la plongée.",
+        "rating": "N/A",
+        "vibe": "Plage",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Rizières de Jatiluwih",
+        "description": "Découvrez ces magnifiques rizières classées au patrimoine mondial.",
+        "rating": "N/A",
+        "vibe": "Nature",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Parc National de Komodo",
+        "description": "Rencontrez les célèbres dragons de Komodo.",
+        "rating": "N/A",
+        "vibe": "Aventure",
+        "image": "",
+        "link": ""
+      }
+    ],
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Bali",
+        "departureTime": "2025-04-22T22:40:00",
+        "duration": "17h30",
+        "airline": "Qatar Airways",
+        "flightClass": "Économie",
+        "fromAirport": "CDG",
+        "toAirport": "DPS",
+        "baggage": "1 bagage jusqu'à 23 kg inclus"
+      },
+      "inbound": null
+    },
+    "hotelData": null,
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage en Indonésie de une semaine, à partir du 22 avril 2025. Budget illimité!!"
+    },
+    {
+      "role": "assistant",
+      "content": "Voici le meilleur vol disponible pour votre voyage en Indonésie :\n\n- **Départ** : Aéroport de Paris-Charles de Gaulle (CDG)\n- **Arrivée** : I Gusti Ngurah Rai International Airport (DPS), Denpasar\n- **Date de départ** : 22 avril 2025, à 22:40\n- **Durée du vol** : 17 heures et 30 minutes\n- **Compagnie aérienne** : Qatar Airways\n- **Prix par personne** : 1 500 EUR\n\n### Détails du vol :\n\n1. **Premier segment** :\n   - **Départ** : 22 avril 2025, 22:40 (CDG)\n   - **Arrivée** : 23 avril 2025, 06:00 (DOH)\n   - **Durée** : 6 heures et 20 minutes\n   \n2. **Deuxième segment** :\n   - **Départ** : 23 avril 2025, 07:50 (DOH)\n   - **Arrivée** : 23 avril 2025, 22:40 (DPS)\n   - **Durée** : 14 heures et 50 minutes\n\n### Informations supplémentaires :\n- **Bagages** : 1 bagage enregistré jusqu'à 23 kg inclus\n- **Conditions** : Remboursement complet en cas d'annulation, changements gratuits possibles (peut impliquer un coût supplémentaire) \n\nPour plus de détails ou pour réserver, vous pouvez consulter [ce lien pour les vols Google](https://www.google.com/travel/flights?hl=fr&gl=fr&curr=EUR&tfs=CBwQAhoeEgoyMDI1LTA0LTIyagcIARIDQ0RHcgcIARIDRFBTGh4SCjIwMjUtMDQtMjlqBwgBEgNEUFNyBwgBEgNDREdCAQFIAWoAcAGYAQE&tfu=EgIIAg)."
+    }
+  ]
+}

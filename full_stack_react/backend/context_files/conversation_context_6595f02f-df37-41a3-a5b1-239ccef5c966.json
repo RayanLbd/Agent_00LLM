@@ -1,0 +1,21 @@
+{
+  "price": null,
+  "dateRange": null,
+  "location": null,
+  "nights": null,
+  "days": null,
+  "topActivities": null,
+  "flightBlockData": null,
+  "hotelData": null,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! How can I assist you today?"
+    }
+  ],
+  "passengers": null
+}

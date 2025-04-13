@@ -1,0 +1,170 @@
+{
+  "interface": {
+    "price": 300.0,
+    "dateRange": "22 avril - 29 avril 2025",
+    "location": "Barcelone",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Jour 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrivée à Barcelone",
+        "dayDescription": "Installation à l’hôtel et dîner dans le quartier de Gràcia.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 2",
+        "date": "2025-04-23",
+        "dayTitle": "Visite de Sagrada Família et Parc Güell",
+        "dayDescription": "Visite de la Sagrada Família le matin, puis promenade dans le parc Güell l'après-midi. Dîner dans le quartier de l'Eixample.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 3",
+        "date": "2025-04-24",
+        "dayTitle": "Découverte du Quartier Gothique",
+        "dayDescription": "Visite du quartier gothique avec la cathédrale, suivi d'une promenade sur La Rambla. Spectacle de Flamenco le soir.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 4",
+        "date": "2025-04-25",
+        "dayTitle": "Montjuïc et Musée Picasso",
+        "dayDescription": "Excursion à Montjuïc le matin, visite du musée Picasso l'après-midi.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 5",
+        "date": "2025-04-26",
+        "dayTitle": "Visite de Casa Batlló et Shopping",
+        "dayDescription": "Visite des maisons modernistes suivie d'un shopping sur Passeig de Gràcia.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 6",
+        "date": "2025-04-27",
+        "dayTitle": "Détente et Culture",
+        "dayDescription": "Visite du marché de La Boqueria le matin, détente à la plage l'après-midi.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 7",
+        "date": "2025-04-28",
+        "dayTitle": "Visite de l'Arc de Triomphe et Derniers Achats",
+        "dayDescription": "Visite de l’Arc de Triomphe et derniers achats dans le centre.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Jour 8",
+        "date": "2025-04-29",
+        "dayTitle": "Retour",
+        "dayDescription": "Retour ou départ selon votre programme.",
+        "flight": {
+          "from_": "Barcelone",
+          "to": "Paris",
+          "time": "23:45"
+        },
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": null,
+        "foodRecommendations": null
+      }
+    ],
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelone",
+        "departureTime": "2025-04-22 21:40",
+        "duration": "105",
+        "airline": "Vueling",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport de Paris-Orly",
+        "toAirport": "Aéroport international de Barcelone-El Prat",
+        "baggage": "Checked baggage for a fee"
+      },
+      "inbound": {
+        "fromCity": "Barcelone",
+        "toCity": "Paris",
+        "departureTime": "2025-04-29 23:45",
+        "duration": "110",
+        "airline": "Vueling",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport international de Barcelone-El Prat",
+        "toAirport": "Aéroport de Paris-Charles de Gaulle",
+        "baggage": "Checked baggage for a fee"
+      }
+    },
+    "hotelData": {
+      "name": "Mellow Hostel Barcelona",
+      "nights": 7,
+      "rating": 3.2,
+      "reviewsCount": null,
+      "location": "Park Güell, Barcelone",
+      "amenities": [
+        "Wi-Fi gratuit"
+      ],
+      "room": "Dortoirs et chambres privées",
+      "website": "http://www.mellowbarcelona.com/",
+      "mapLink": "https://www.google.com/maps/place/Park+G%C3%BCell,+Barcelona"
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage à Barcelone du 22 avril au 29 avril 2025"
+    },
+    {
+      "role": "assistant",
+      "content": "Voici votre voyage à Barcelone du 22 au 29 avril 2025.\n\n### Vols\n- **Aller**: Paris (Aéroport de Paris-Orly) → Barcelone (Aéroport international de Barcelone-El Prat)\n  - **Date**: 22 avril 2025 \n  - **Heure de départ**: 21:40 \n  - **Durée**: 1h 45\n  - **Compagnie**: Vueling (Économie)\n  - **Bagages**: Vérification des bagages payants\n\n- **Retour**: Barcelone (Aéroport international de Barcelone-El Prat) → Paris (Aéroport de Paris-Charles de Gaulle)\n  - **Date**: 29 avril 2025 \n  - **Heure de départ**: 23:45\n  - **Durée**: 1h 50\n  - **Compagnie**: Vueling (Économie)\n  - **Bagages**: Vérification des bagages payants\n\n### Hébergement \n- **Hôtel**: Mellow Hostel Barcelona\n  - **Localisation**: Park Güell, Barcelone\n  - **Nuits**: 7\n  - **Type de chambre**: Dortoirs et chambres privées\n  - **Équipements**: Wi-Fi gratuit\n  - **Site Web**: [mellowbarcelona.com](http://www.mellowbarcelona.com/)\n  - **Lien Google Maps**: [Mellow Hostel](https://www.google.com/maps/place/Park+G%C3%BCell,+Barcelona)\n\n### Itinéraire Proposé\n- **Jour 1**: Arrivée, installation et dîner dans le quartier de Gràcia.\n- **Jour 2**: Visite de la Sagrada Família et promenade au parc Güell.\n- **Jour 3**: Découverte du quartier gothique et spectacle de Flamenco.\n- **Jour 4**: Excursion à Montjuïc et visite du musée Picasso.\n- **Jour 5**: Visite de Casa Batlló et shopping sur Passeig de Gràcia.\n- **Jour 6**: Marché de La Boqueria et détente à la plage.\n- **Jour 7**: Visite de l'Arc de Triomphe et derniers achats.\n- **Jour 8**: Retour à Paris.\n\n### Budget Estimé\n- **Total**: 300 € (incluant vol et hébergement)\n\nLaissez-moi savoir si vous avez besoin d'autres informations ou modifications!"
+    }
+  ]
+}

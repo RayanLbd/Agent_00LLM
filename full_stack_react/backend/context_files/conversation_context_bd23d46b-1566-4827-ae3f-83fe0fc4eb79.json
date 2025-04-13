@@ -1,0 +1,153 @@
+{
+  "interface": {
+    "price": 4015.0,
+    "dateRange": "April 9 - April 16, 2025",
+    "location": "Indonesia",
+    "nights": 5,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-09",
+        "dayTitle": "Travel to Indonesia",
+        "dayDescription": "Departure from Paris to Denpasar, Indonesia. Enjoy your flight!",
+        "flight": {
+          "from_": "Paris",
+          "to": "Denpasar",
+          "time": "April 9, 2025, 19:40"
+        },
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-10",
+        "dayTitle": "Arrival in Bali",
+        "dayDescription": "Arrive in Bali and check into your accommodation. Explore nearby beaches or local markets.",
+        "flight": null,
+        "hotel": {
+          "name": "Elsewhere Surf Camp Bali Canggu",
+          "nights": 5
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-11",
+        "dayTitle": "Explore Yogyakarta",
+        "dayDescription": "Travel to Yogyakarta to visit historical sites like Borobudur and Prambanan.",
+        "flight": null,
+        "hotel": {
+          "name": "SNOOZE Yogyakarta",
+          "nights": 5
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-12",
+        "dayTitle": "Adventure at Komodo National Park",
+        "dayDescription": "Go on a tour to see the Komodo dragons and pristine beaches at Komodo National Park.",
+        "flight": null,
+        "hotel": {
+          "name": "Kampung Komodo Homestay",
+          "nights": 5
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-13",
+        "dayTitle": "Mount Bromo Visit",
+        "dayDescription": "Visit Mount Bromo for stunning sunrise views and explore the area.",
+        "flight": null,
+        "hotel": {
+          "name": "Widodaren Homestay",
+          "nights": 5
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-14",
+        "dayTitle": "Raja Ampat Excursion",
+        "dayDescription": "Enjoy the natural beauty and biodiversity of Raja Ampat.",
+        "flight": null,
+        "hotel": {
+          "name": "Vogelkopf Resort",
+          "nights": 5
+        },
+        "activities": null,
+        "foodRecommendations": null
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-04-15",
+        "dayTitle": "Relaxation and Departure",
+        "dayDescription": "Spend your last day relaxing. Depart back to Paris.",
+        "flight": null,
+        "hotel": null,
+        "activities": null,
+        "foodRecommendations": null
+      }
+    ],
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Denpasar",
+        "departureTime": "April 9, 2025, 19:40",
+        "duration": "16 hours",
+        "airline": "Jetstar / SWISS",
+        "flightClass": "Economy",
+        "fromAirport": "CDG",
+        "toAirport": "DPS",
+        "baggage": "1 checked bag up to 23 kg"
+      },
+      "inbound": {
+        "fromCity": "Denpasar",
+        "toCity": "Paris",
+        "departureTime": "April 16, 2025",
+        "duration": "16 hours",
+        "airline": "Jetstar / SWISS",
+        "flightClass": "Economy",
+        "fromAirport": "DPS",
+        "toAirport": "CDG",
+        "baggage": "1 checked bag up to 23 kg"
+      }
+    },
+    "hotelData": {
+      "name": "Elsewhere Surf Camp Bali Canggu",
+      "nights": 5,
+      "rating": 5.0,
+      "reviewsCount": 0,
+      "location": "FINNS Beach Club",
+      "amenities": [
+        "WiFi",
+        "Fitness Center",
+        "Restaurant"
+      ],
+      "room": "Standard Room",
+      "website": "https://elsewheresurfcamps.com/",
+      "mapLink": "https://www.google.com/maps/place/Elsewhere+Surf+Camp+Bali."
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "I want to go to Indonesia for a week"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Do you have specific dates in mind for your trip or any particular destinations within Indonesia you’d like to visit?"
+    }
+  ]
+}

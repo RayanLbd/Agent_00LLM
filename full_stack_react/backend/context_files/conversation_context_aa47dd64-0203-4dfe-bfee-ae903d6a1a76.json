@@ -1,0 +1,319 @@
+{
+  "interface": {
+    "price": null,
+    "dateRange": "April 22 – April 29, 2025",
+    "location": "Barcelona",
+    "nights": 7,
+    "days": [
+      {
+        "dayLabel": "Day 1",
+        "date": "2025-04-22",
+        "dayTitle": "Arrival and First Exploration",
+        "dayDescription": "Welcome to Barcelona! After your arrival, settle into your hotel and prepare for an afternoon exploration of the historic heart of the city.",
+        "flight": {
+          "from_": "Paris",
+          "to": "Barcelona",
+          "time": "21:35"
+        },
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 7
+        },
+        "activities": [
+          {
+            "title": "Barcelona Cathedral",
+            "description": "A beautiful gothic cathedral with stained glass windows dating back 500 years.",
+            "rating": "4.4",
+            "vibe": "Historic",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/8c/37/29/photo1jpg.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d191048-Reviews-Barcelona_Cathedral-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "In Out Barcelona Tours",
+            "description": "Run tours in and out of Barcelona visiting known attractions and hidden treasures.",
+            "rating": "4.9",
+            "vibe": "Adventure",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/90/1b/ee/a-small-group-tour-of.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d7365281-Reviews-In_Out_Barcelona_Tours-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Arcano Restaurant Barcelona",
+            "description": "Explore Catalan cuisine with a creative twist, featuring premium meats and fresh local ingredients."
+          },
+          {
+            "title": "Taps Barcelona",
+            "description": "Enjoy a variety of delicious tapas, perfect for sharing with family or friends."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 2",
+        "date": "2025-04-23",
+        "dayTitle": "Cultural Exploration",
+        "dayDescription": "Visit key sites in Barcelona and enjoy local cuisine.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 6
+        },
+        "activities": [
+          {
+            "title": "Park Güell",
+            "description": "Famous park with colorful mosaics and architectural marvels, designed by Antoni Gaudí.",
+            "rating": "4.6",
+            "vibe": "Artistic",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/8c/37/29/photo1jpg.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d192190-Reviews-Park_Guell-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Sagrada Familia",
+            "description": "Iconic basilica designed by Antoni Gaudí, still under construction, known for its unique architecture.",
+            "rating": "4.6",
+            "vibe": "Spiritual",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/c4/05/f4/sagrada-familia.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d190648-Reviews-Sagrada_Familia-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Cervecería Catalana",
+            "description": "A great spot for tapas and traditional Catalan dishes."
+          },
+          {
+            "title": "El Xampanyet",
+            "description": "Popular for its sparkling wine and local tapas."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 3",
+        "date": "2025-04-24",
+        "dayTitle": "Shopping and Relaxation",
+        "dayDescription": "Enjoy a leisurely day exploring local shops and relaxing.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 5
+        },
+        "activities": [
+          {
+            "title": "La Rambla",
+            "description": "Famous street in the heart of the city, lined with shops, cafes, and street performers.",
+            "rating": "4.5",
+            "vibe": "Vibrant",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/4e/40/52/la-rambla.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d190944-Reviews-La_Rambla-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Passeig de Gràcia",
+            "description": "Luxury shopping street home to high-end brands and remarkable architecture.",
+            "rating": "4.7",
+            "vibe": "Luxurious",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/12/0a/d1/e4/passeig-de-gracia.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d191168-Reviews-Passeig_de_Gracia-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Patisserie Hofmann",
+            "description": "For delightful pastries and coffee."
+          },
+          {
+            "title": "Makamaka Beach Burger Café",
+            "description": "Relaxed atmosphere with delicious burgers."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 4",
+        "date": "2025-04-25",
+        "dayTitle": "Exploration of Gaudí's Works",
+        "dayDescription": "Dive deeper into the masterpieces of Antoni Gaudí in the city.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 4
+        },
+        "activities": [
+          {
+            "title": "Casa Batlló",
+            "description": "Famous Gaudí house with a unique architecture and colorful facade.",
+            "rating": "4.7",
+            "vibe": "Impressive",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/0e/3b/39/casa-batllo.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d192938-Reviews-Casa_Batllo-Barcelona_Catalonia.html?m=66827"
+          },
+          {
+            "title": "Casa Milà (La Pedrera)",
+            "description": "Another iconic Gaudí building with an undulating stone facade.",
+            "rating": "4.6",
+            "vibe": "Magnificent",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/7e/9f/0a/casa-mila.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d188321-Reviews-Casa_Mila_La_Pedrera-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Bar Tomás",
+            "description": "Famous for its patatas bravas."
+          },
+          {
+            "title": "Bobby's Free",
+            "description": "A speakeasy cocktail bar with a hidden entrance."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 5",
+        "date": "2025-04-26",
+        "dayTitle": "Beach Day and Leisure",
+        "dayDescription": "Spend the day at the beach enjoying sun and relaxation.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 3
+        },
+        "activities": [
+          {
+            "title": "Barceloneta Beach",
+            "description": "The most popular beach in Barcelona perfect for swimming and sunbathing.",
+            "rating": "4.5",
+            "vibe": "Relaxed",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/12/d5/7b/2c/barceloneta.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d197825-Reviews-Barceloneta_Beach-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Chiringuito Beatriz",
+            "description": "Beachfront restaurant serving delicious seafood."
+          },
+          {
+            "title": "La Paradeta",
+            "description": "Local seafood restaurant where you choose your own catch."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 6",
+        "date": "2025-04-27",
+        "dayTitle": "Final Trip Highlights",
+        "dayDescription": "Last day to explore more sights or revisit favorites.",
+        "flight": null,
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 2
+        },
+        "activities": [
+          {
+            "title": "Magic Fountain of Montjuïc",
+            "description": "Enjoy the spectacular light and music show at night.",
+            "rating": "4.5",
+            "vibe": "Cultural",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/7e/0f/b4/magic-fountain.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d191326-Reviews-Magic_Fountain_of_Montjuic-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Los Caracoles",
+            "description": "Charming restaurant near La Rambla."
+          },
+          {
+            "title": "La Cova Fumada",
+            "description": "Traditional eatery famous for its seafood."
+          }
+        ]
+      },
+      {
+        "dayLabel": "Day 7",
+        "date": "2025-04-28",
+        "dayTitle": "Departure",
+        "dayDescription": "Wrap up your journey with last-minute shopping before heading home.",
+        "flight": {
+          "from_": "Barcelona",
+          "to": "Paris",
+          "time": "16:00"
+        },
+        "hotel": {
+          "name": "Mellow Hostel Barcelona",
+          "nights": 1
+        },
+        "activities": [
+          {
+            "title": "El Born",
+            "description": "Trendy neighborhood to explore unique shops and galleries.",
+            "rating": "4.5",
+            "vibe": "Trendy",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/6d/79/1b/el-born.jpg",
+            "link": "https://www.tripadvisor.com/Attraction_Review-g187497-d191000-Reviews-El_Born-Barcelona_Catalonia.html?m=66827"
+          }
+        ],
+        "foodRecommendations": [
+          {
+            "title": "Brunch & Cake",
+            "description": "Great for breakfast before departure."
+          },
+          {
+            "title": "Bobby's Free",
+            "description": "For a cocktail to celebrate the trip."
+          }
+        ]
+      }
+    ],
+    "topActivities": null,
+    "flightBlockData": {
+      "outbound": {
+        "fromCity": "Paris",
+        "toCity": "Barcelona",
+        "departureTime": "2025-04-22 21:35",
+        "duration": "1h 55m",
+        "airline": "Vueling",
+        "flightClass": "Economy",
+        "fromAirport": "Aéroport de Paris-Charles de Gaulle (CDG)",
+        "toAirport": "Aéroport international de Barcelone-El Prat (BCN)",
+        "baggage": "Checked baggage for a fee"
+      },
+      "inbound": {
+        "fromCity": "Barcelona",
+        "toCity": "Paris",
+        "departureTime": "2025-04-29",
+        "duration": null,
+        "airline": null,
+        "flightClass": null,
+        "fromAirport": null,
+        "toAirport": null,
+        "baggage": null
+      }
+    },
+    "hotelData": {
+      "name": "Mellow Hostel Barcelona",
+      "nights": 7,
+      "rating": 3.2,
+      "reviewsCount": null,
+      "location": "Park Güell, Barcelone",
+      "amenities": [
+        "Wi-Fi gratuit"
+      ],
+      "room": "Dortoirs et chambres privées",
+      "website": "http://www.mellowbarcelona.com/",
+      "mapLink": "https://www.google.com/maps/place/Park+G%C3%BCell,+Barcelona"
+    },
+    "passengers": {
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Organise moi un voyage à Barcelone du 22 avril au 29 avril 2025"
+    },
+    {
+      "role": "assistant",
+      "content": "J'ai commencé à organiser votre voyage à Barcelone ! Voici les détails :\n\n- **Dates** : 22 avril au 29 avril 2025  \n- **Vol Aller** : Paris -> Barcelone le 22 avril à 21h35 (Vueling, 1h 55m)  \n- **Vol Retour** : Barcelone -> Paris le 29 avril à 16h00  \n- **Hôtel** : Mellow Hostel Barcelona (3.2 étoiles) à proximité du Parc Güell  \n  \nJe vais vous donner un itinéraire détaillé avec des activités et des recommandations de nourriture. Un instant !"
+    }
+  ]
+}
